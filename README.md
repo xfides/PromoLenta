@@ -1,1 +1,1 @@
-https://github.com/xfides/PromoLenta
+http://xfides.github.io/PromoLenta
