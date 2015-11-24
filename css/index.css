@@ -357,72 +357,103 @@ table {
 td, th {
   padding: 0; }
 
-/* line 1, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+/*\\\FONTS\\\FONTS\\\FONTS\\\FONTS\\\FONTS\\\FONTS\\\FONTS\\\FONTS\\\FONTS\\\*/
+@font-face {
+  font-family: 'open_sans_light';
+  src: url('../fonts/openSansLight/open_sans_light-webfont.eot');
+  src: url('../fonts/openSansLight/open_sans_light-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/openSansLight/open_sans_light-webfont.woff2') format('woff2'), url('../fonts/openSansLight/open_sans_light-webfont.woff') format('woff'), url('../fonts/openSansLight/open_sans_light-webfont.ttf') format('truetype'), url('../fonts/openSansLight/open_sans_light-webfont.svg#open_sanslight') format('svg');
+  font-weight: 100;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'open_sans_regular';
+  src: url('../fonts/openSansRegular/open_sans_regular-webfont.eot');
+  src: url('../fonts/openSansRegular/open_sans_regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/openSansRegular/open_sans_regular-webfont.woff2') format('woff2'), url('../fonts/openSansRegular/open_sans_regular-webfont.woff') format('woff'), url('../fonts/openSansRegular/open_sans_regular-webfont.ttf') format('truetype'), url('../fonts/openSansRegular/open_sans_regular-webfont.svg#open_sansregular') format('svg');
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'open_sans_condensed_bold';
+  src: url('../fonts/openSansCondensedBold/open_sans_condense_bold-webfont.eot');
+  src: url('../fonts/openSansCondensedBold/open_sans_condense_bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/openSansCondensedBold/open_sans_condense_bold-webfont.woff2') format('woff2'), url('../fonts/openSansCondensedBold/open_sans_condense_bold-webfont.woff') format('woff'), url('../fonts/openSansCondensedBold/open_sans_condense_bold-webfont.ttf') format('truetype'), url('../fonts/openSansCondensedBold/open_sans_condense_bold-webfont.svg#open_sans_condensedbold') format('svg');
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'open_sans_bold';
+  src: url('../fonts/openSansBold/open-sans-bold-webfont.eot');
+  src: url('../fonts/openSansBold/open-sans-bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/openSansBold/open-sans-bold-webfont.woff2') format('woff2'), url('../fonts/openSansBold/open-sans-bold-webfont.woff') format('woff'), url('../fonts/openSansBold/open-sans-bold-webfont.ttf') format('truetype'), url('../fonts/openSansBold/open-sans-bold-webfont.svg#open_sansregular') format('svg');
+  font-weight: bold;
+  font-style: normal; }
+
+/*\\\FONTS\\\FONTS\\\FONTS\\\FONTS\\\FONTS\\\FONTS\\\FONTS\\\FONTS\\\FONTS\\\*/
+/*\\\USEFUL CLASSES FROM BOOTSTRAP3\\\USEFUL CLASSES FROM BOOTSTRAP3\\\*/
+/* line 53, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-/* line 8, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+/* line 60, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
 *:before, *:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-/* line 14, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+/* line 66, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
 html {
   font-size: 10px;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 
-/* line 19, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+/* line 71, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "open_sans_regular", "Tahoma", "Geneva", sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: #333333;
   background-color: #ffffff; }
 
-/* line 30, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+/* line 82, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
 input, button, select, textarea {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit; }
 
-/* line 36, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+/* line 88, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
 a {
   color: #337ab7;
   text-decoration: none; }
 
-/* line 42, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+/* line 94, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
 a:hover, a:focus {
   color: #23527c;
   text-decoration: underline; }
 
-/* line 47, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+/* line 99, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
 a:focus {
   outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px; }
 
-/* line 53, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+/* line 105, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
 figure {
   margin: 0; }
 
-/* line 57, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+/* line 109, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
 img {
   vertical-align: middle; }
 
-/* line 61, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+/* line 113, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
 .img-responsive {
   display: block;
   max-width: 100%;
   height: auto; }
 
-/* line 67, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+/* line 119, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
 .img-rounded {
   border-radius: 6px; }
 
-/* line 71, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+/* line 123, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
 .img-thumbnail {
   padding: 4px;
   line-height: 1.42857143;
@@ -436,52 +467,73 @@ img {
   max-width: 100%;
   height: auto; }
 
-/* line 85, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+/* line 137, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
 .img-circle {
   border-radius: 50%; }
 
-/* line 89, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+/* line 141, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
 hr {
   margin-top: 20px;
   margin-bottom: 20px;
   border: 0;
   border-top: 1px solid #eeeeee; }
 
-/* line 96, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
-.wrapCommon {
+/*\\\USEFUL CLASSES FROM BOOTSTRAP3\\\USEFUL CLASSES FROM BOOTSTRAP3\\\*/
+/*\\\COMMON STYLES FOR COMMON WRAPER\\\COMMON STYLES FOR COMMON WRAPER\\\*/
+/* line 154, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+body, .wrapCommon {
   width: 100%;
   background-color: #f1f1f1;
   background-image: url(../img/bg__wrap.jpg);
   background-position: 0 0;
-  background-repeat: repeat;
-  height: 200px; }
+  background-repeat: repeat; }
 
-/* line 105, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+/* line 162, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
 .wrapCommonInner {
   margin: 0 auto;
-  width: 1260px; }
+  padding: 0 15px;
+  max-width: 1290px;
+  background: white; }
 
-/*
-@media (max-width: 960px){
+@media (max-width: 960px) {
+  /* line 170, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+  .wrapCommonInner {
+    padding: 0 25px;
+    max-width: 960px;
+    background: lightgreen; }
+ }
 
-}
+@media (max-width: 720px) {
+  /* line 178, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+  .wrapCommonInner {
+    padding: 0 15px;
+    max-width: 720px;
+    background: yellow; }
+ }
 
-@media (max-width: 720px){
+@media (max-width: 480px) {
+  /* line 186, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+  .wrapCommonInner {
+    padding: 0 5px;
+    max-width: 480px;
+    background: orange; }
+ }
 
-}
+@media (max-width: 320px) {
+  /* line 194, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+  .wrapCommonInner {
+    padding: 0 10px;
+    max-width: 320px;
+    background: red; }
+ }
 
-@media (max-width: 480px){
-
-}
-
-@media (max-width: 320px){
-
-}
-*/
-/* line 128, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+/*\\\COMMON STYLES FOR COMMON WRAPER\\\COMMON STYLES FOR COMMON WRAPER\\\*/
+/*\\\SUPPORTING DEVELOPER STYLES\\\SUPPORTING DEVELOPER STYLES\\\*/
+/* line 205, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
 div {
   outline: 2px solid red; }
 
+/*\\\SUPPORTING DEVELOPER STYLES\\\SUPPORTING DEVELOPER STYLES\\\*/
 /*
 @media (max-width: 960px){
 
