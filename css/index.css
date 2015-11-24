@@ -363,18 +363,18 @@ td, th {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-/* line 7, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+/* line 8, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
 *:before, *:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-/* line 12, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+/* line 14, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
 html {
   font-size: 10px;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 
-/* line 16, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+/* line 19, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
@@ -382,47 +382,47 @@ body {
   color: #333333;
   background-color: #ffffff; }
 
-/* line 26, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+/* line 30, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
 input, button, select, textarea {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit; }
 
-/* line 31, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+/* line 36, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
 a {
   color: #337ab7;
   text-decoration: none; }
 
-/* line 36, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+/* line 42, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
 a:hover, a:focus {
   color: #23527c;
   text-decoration: underline; }
 
-/* line 40, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+/* line 47, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
 a:focus {
   outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px; }
 
-/* line 45, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+/* line 53, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
 figure {
   margin: 0; }
 
-/* line 48, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+/* line 57, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
 img {
   vertical-align: middle; }
 
-/* line 51, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+/* line 61, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
 .img-responsive {
   display: block;
   max-width: 100%;
   height: auto; }
 
-/* line 56, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+/* line 67, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
 .img-rounded {
   border-radius: 6px; }
 
-/* line 59, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+/* line 71, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
 .img-thumbnail {
   padding: 4px;
   line-height: 1.42857143;
@@ -436,13 +436,66 @@ img {
   max-width: 100%;
   height: auto; }
 
-/* line 72, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+/* line 85, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
 .img-circle {
   border-radius: 50%; }
 
-/* line 75, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+/* line 89, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
 hr {
   margin-top: 20px;
   margin-bottom: 20px;
   border: 0;
   border-top: 1px solid #eeeeee; }
+
+/* line 96, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+.wrapCommon {
+  width: 100%;
+  background-color: #f1f1f1;
+  background-image: url(../img/bg__wrap.jpg);
+  background-position: 0 0;
+  background-repeat: repeat;
+  height: 200px; }
+
+/* line 105, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+.wrapCommonInner {
+  margin: 0 auto;
+  width: 1260px; }
+
+/*
+@media (max-width: 960px){
+
+}
+
+@media (max-width: 720px){
+
+}
+
+@media (max-width: 480px){
+
+}
+
+@media (max-width: 320px){
+
+}
+*/
+/* line 128, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+div {
+  outline: 2px solid red; }
+
+/*
+@media (max-width: 960px){
+
+}
+
+@media (max-width: 720px){
+
+}
+
+@media (max-width: 480px){
+
+}
+
+@media (max-width: 320px){
+
+}
+*/
