@@ -29,16 +29,10 @@
 
 
       <!-- /.wrapAllHeader \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->
-      <div class="wrapAllHeader">
+      <div class="wrapAllHeader clearfix">
 
         <div class="headerContacts">
-          <div class="inetContacs">
-            Интернет Контакты Интернет Контакты Интернет Контакты
-            Интернет Контакты
-            Интернет Контакты Интернет Контакты Интернет Контакты
-            Интернет Контакты
-          </div>
-          <!-- /.inetContacs -->
+
           <div class="realContacts">
             Реальные Контакты Реальные Контакты Реальные Контакты
             Реальные Контакты
@@ -46,13 +40,27 @@
             Реальные Контакты
           </div>
           <!-- /.realContacts -->
+
+          <div class="inetContacs">
+            Интернет Контакты Интернет Контакты Интернет Контакты
+            Интернет Контакты
+            Интернет Контакты Интернет Контакты Интернет Контакты
+            Интернет Контакты
+          </div>
+          <!-- /.inetContacs -->
+
         </div>
         <!-- /.headerContacts -->
 
         <div class="headerLogo">
-          логотип
+          <img class="img-responsive center-block" src="img/logo.png" alt="Логотип ПромоЛенты">
         </div>
         <!-- /.headerLogo -->
+
+        <div class="search">
+          поиск
+        </div>
+        <!-- /.search -->
 
         <nav class="headerNav">
           <ul class="headerNav__list">
@@ -77,34 +85,32 @@
         </div>
         <!-- /.breadcrumbs -->
 
-        <div class="search">
-          поиск
-        </div>
-        <!-- /.search -->
-
       </div>
       <!-- /.wrapAllHeader \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->
 
 
       <!-- /.wrapContent \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->
-      <main class="wrapContent">
-        <nav class="mainContent">
-          <ul>
-            <li><a href="#">лента на заказ</a></li>
-            <li><a href="#">швейная маркировка</a></li>
-            <li><a href="#">используемые виды лент</a></li>
-            <li><a href="#">технологии производства</a></li>
-            <li><a href="#">продажа оборудования</a></li>
-            <li><a href="#">продажи материалов</a></li>
-            <li><a href="#">продукция</a></li>
-          </ul>
-        </nav>
-        <!-- /.mainContent -->
-        <div class="pattern">
-          получить бесплатные образцы
+      <main class="wrapContent clearfix">
+
+        <div class="leftColumn">
+          <!--
+          This block must be with its className the first.
+          It has to contain some inner main blocks on the left side
+          during high resolutions.
+          -->
         </div>
-        <!-- /.pattern -->
-        <section class="goods">
+        <!-- /.leftColumn SHOULD BE EMPTY!!!-->
+
+        <div class="rightColumn">
+          <!--
+          This block must be with its className the SECOND.
+          It has to contain some inner main blocks on the right side
+          during high resolutions.
+          -->
+        </div>
+        <!-- /.rightColumn SHOULD BE EMPTY!!!-->
+
+        <section class="goods center-block">
           <h3>head of goods</h3>
           goods goods goods goods goods goods goods
           goods goods goods goods goods goods goods
@@ -127,18 +133,35 @@
           goods goods goods goods goods goods goods
         </section>
         <!-- /.goods -->
-        <div class="payOnline">
-          оналйн оплата
-        </div>
-        <!-- /.payOnline -->
+
         <div class="writeRequest">
           написать запрос в компанию
         </div>
         <!-- /.writeRequest -->
+
+        <div class="pattern">
+          получить бесплатные образцы
+        </div>
+        <!-- /.pattern -->
+
         <div class="banner">
           баннер
         </div>
         <!-- /.banner -->
+
+        <nav class="contentNav">
+          <ul>
+            <li><a href="#">лента на заказ</a></li>
+            <li><a href="#">швейная маркировка</a></li>
+            <li><a href="#">используемые виды лент</a></li>
+            <li><a href="#">технологии производства</a></li>
+            <li><a href="#">продажа оборудования</a></li>
+            <li><a href="#">продажи материалов</a></li>
+            <li><a href="#">продукция</a></li>
+          </ul>
+        </nav>
+        <!-- /.contentNav -->
+
         <aside class="info">
           <ul>
             <li>наша компания</li>
@@ -147,6 +170,12 @@
           </ul>
         </aside>
         <!-- /.info -->
+
+        <div class="payOnline center-block">
+          оналйн оплата
+        </div>
+        <!-- /.payOnline -->
+
       </main>
       <!-- /.wrapContent \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->
 
@@ -211,7 +240,8 @@
   <!-- /.wrapCommon -->
 
   <!-- .............................................................. -->
-  <script src="js/index.js"></script>
+  <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
+  <script src="js/index.js" type="text/javascript"></script>
   <!-- .............................................................. -->
 </body>
 
