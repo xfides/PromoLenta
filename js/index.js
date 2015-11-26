@@ -32,10 +32,10 @@ function ready() {
         (NextByHeaderLogo === search) &&
         (NextBySearch === headerNav)
       ) {
-        console.log("header's order is right");
+        //console.log("header's order is right");
         return;
       } else {
-        console.log("header's order is wrong");
+        //console.log("header's order is wrong");
         wrapAllHeader.insertBefore(headerNav, breadcrumbs);
         wrapAllHeader.insertBefore(search, headerNav);
         wrapAllHeader.insertBefore(headerLogo, search);
@@ -48,10 +48,10 @@ function ready() {
         (NextByHeaderLogo === headerNav) &&
         (NextByHeaderNav === search)
       ) {
-        console.log("header's order is right");
+        //console.log("header's order is right");
         return;
       } else {
-        console.log("header's order is wrong");
+       // console.log("header's order is wrong");
         wrapAllHeader.insertBefore(search, breadcrumbs);
         wrapAllHeader.insertBefore(headerNav, search);
         wrapAllHeader.insertBefore(headerLogo, headerNav);
@@ -64,10 +64,10 @@ function ready() {
         (NextByHeaderLogo === search) &&
         (NextBySearch === headerNav)
       ) {
-        console.log("header's order is right");
+        //console.log("header's order is right");
         return;
       } else {
-        console.log("header's order is wrong");
+        //console.log("header's order is wrong");
         wrapAllHeader.insertBefore(headerNav, breadcrumbs);
         wrapAllHeader.insertBefore(search, headerNav);
         wrapAllHeader.insertBefore(headerLogo, search);
@@ -80,10 +80,10 @@ function ready() {
         (NextBySearch === headerLogo) &&
         (NextByHeaderLogo === headerNav)
       ) {
-        console.log("header's order is right");
+        //console.log("header's order is right");
         return;
       } else {
-        console.log("header's order is wrong");
+        //console.log("header's order is wrong");
         wrapAllHeader.insertBefore(headerNav, breadcrumbs);
         wrapAllHeader.insertBefore(headerLogo, headerNav);
         wrapAllHeader.insertBefore(search, headerLogo);
@@ -96,10 +96,10 @@ function ready() {
         (NextBySearch === headerLogo) &&
         (NextByHeaderLogo === headerNav)
       ) {
-        console.log("header's order is right");
+        //console.log("header's order is right");
         return;
       } else {
-        console.log("header's order is wrong");
+       //console.log("header's order is wrong");
         wrapAllHeader.insertBefore(headerNav, breadcrumbs);
         wrapAllHeader.insertBefore(headerLogo, headerNav);
         wrapAllHeader.insertBefore(search, headerLogo);
@@ -131,12 +131,12 @@ function ready() {
     }
 
     if (windowWidth <= 720) {
-      console.log(leftColumn.children.length);
+      //console.log(leftColumn.children.length);
       if (leftColumn.children.length === 0) {
       	return;
       } else {
         var BitsOfContent = document.createDocumentFragment();
-        console.log("not empty");
+        //console.log("not empty");
         BitsOfContent.appendChild(goods);
         BitsOfContent.appendChild(writeRequest);
         BitsOfContent.appendChild(pattern);

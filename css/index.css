@@ -393,26 +393,158 @@ td, th {
   font-weight: normal;
   font-style: normal; }
 
+/* line 61, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  /*speak: none;*/
+  /*  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;*/
+  /* opacity: .8; */
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+  /* fix buttons height, for twitter bootstrap */
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  /*margin-left: .2em;*/
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */ }
+
+/* line 96, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+.icon-home:before {
+  content: '\2302'; }
+
+/* '⌂' */
+/* line 97, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+.icon-mail:before {
+  content: '\2709'; }
+
+/* '✉' */
+/* line 98, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+.icon-pencil:before {
+  content: '\270e'; }
+
+/* '✎' */
+/* line 99, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+.icon-down-open:before {
+  content: '\e75c'; }
+
+/* '' */
+/* line 100, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+.icon-left-open:before {
+  content: '\e75d'; }
+
+/* '' */
+/* line 101, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+.icon-right-open:before {
+  content: '\e75e'; }
+
+/* '' */
+/* line 102, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+.icon-up-open:before {
+  content: '\e75f'; }
+
+/* '' */
+/* line 103, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+.icon-align-left:before {
+  content: '\e77e'; }
+
+/* '' */
+/* line 104, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+.icon-twitter:before {
+  content: '\f099'; }
+
+/* '' */
+/* line 105, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+.icon-facebook:before {
+  content: '\f09a'; }
+
+/* '' */
+/* line 106, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+.icon-rss:before {
+  content: '\f09e'; }
+
+/* '' */
+/* line 107, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+.icon-angle-double-left:before {
+  content: '\f100'; }
+
+/* '' */
+/* line 108, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+.icon-angle-double-right:before {
+  content: '\f101'; }
+
+/* '' */
+/* line 109, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+.icon-circle-empty:before {
+  content: '\f10c'; }
+
+/* '' */
+/* line 110, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+.icon-skype:before {
+  content: '\f17e'; }
+
+/* '' */
+/* line 111, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+.icon-vkontakte:before {
+  content: '\f189'; }
+
+/* '' */
+/* line 112, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+.icon-dot-circled:before {
+  content: '\f192'; }
+
+/* '' */
+/* line 113, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+.icon-at:before {
+  content: '\f1fa'; }
+
+/* '' */
+/* line 114, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+.icon-icq:before {
+  content: '\f304'; }
+
+/* '' */
+/* line 115, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+.icon-odnoklassniki:before {
+  content: '\f30c'; }
+
+/* '' */
+/* line 116, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+.icon-search:before {
+  content: '🔍'; }
+
+/* '\1f50d' */
 /*\\\FONTS\\\FONTS\\\FONTS\\\FONTS\\\FONTS\\\FONTS\\\FONTS\\\FONTS\\\FONTS\\\*/
 /*\\\USEFUL CLASSES FROM BOOTSTRAP3\\\USEFUL CLASSES FROM BOOTSTRAP3\\\*/
-/* line 63, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+/* line 120, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-/* line 70, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+/* line 127, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
 *:before, *:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-/* line 76, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+/* line 133, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
 html {
   font-size: 10px;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 
-/* line 81, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+/* line 138, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
 body {
   font-family: "open_sans_regular", "Tahoma", "Geneva", sans-serif;
   font-size: 14px;
@@ -420,47 +552,47 @@ body {
   color: #333333;
   background-color: #ffffff; }
 
-/* line 92, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+/* line 149, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
 input, button, select, textarea {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit; }
 
-/* line 98, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+/* line 155, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
 a {
   color: #337ab7;
   text-decoration: none; }
 
-/* line 104, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+/* line 161, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
 a:hover, a:focus {
   color: #23527c;
   text-decoration: underline; }
 
-/* line 109, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+/* line 166, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
 a:focus {
   outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px; }
 
-/* line 115, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+/* line 172, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
 figure {
   margin: 0; }
 
-/* line 119, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+/* line 176, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
 img {
   vertical-align: middle; }
 
-/* line 123, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+/* line 180, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
 .img-responsive {
   display: block;
   max-width: 100%;
   height: auto; }
 
-/* line 129, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+/* line 186, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
 .img-rounded {
   border-radius: 6px; }
 
-/* line 133, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+/* line 190, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
 .img-thumbnail {
   padding: 4px;
   line-height: 1.42857143;
@@ -474,27 +606,27 @@ img {
   max-width: 100%;
   height: auto; }
 
-/* line 147, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+/* line 204, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
 .img-circle {
   border-radius: 50%; }
 
-/* line 151, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+/* line 208, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
 hr {
   margin-top: 20px;
   margin-bottom: 20px;
   border: 0;
   border-top: 1px solid #eeeeee; }
 
-/* line 165, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+/* line 222, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
 .clearfix:before, .clearfix:after, .container:before, .container:after, .container-fluid:before, .container-fluid:after, .row:before, .row:after {
   content: " ";
   display: table; }
 
-/* line 172, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+/* line 229, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
 .clearfix:after, .container:after, .container-fluid:after, .row:after {
   clear: both; }
 
-/* line 175, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+/* line 232, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
 .center-block {
   display: block;
   margin-left: auto;
@@ -502,7 +634,7 @@ hr {
 
 /*\\\USEFUL CLASSES FROM BOOTSTRAP3\\\USEFUL CLASSES FROM BOOTSTRAP3\\\*/
 /*\\\COMMON STYLES FOR COMMON WRAPER\\\COMMON STYLES FOR COMMON WRAPER\\\*/
-/* line 185, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+/* line 242, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
 body, .wrapCommon {
   width: 100%;
   background-color: #f1f1f1;
@@ -510,15 +642,14 @@ body, .wrapCommon {
   background-position: 0 0;
   background-repeat: repeat; }
 
-/* line 193, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+/* line 250, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
 .wrapCommonInner {
   margin: 0 auto;
   padding: 0 15px;
-  max-width: 1290px;
-  background: white; }
+  max-width: 1290px; }
 
 @media (max-width: 960px) {
-  /* line 201, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+  /* line 258, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
   .wrapCommonInner {
     padding: 0 25px;
     max-width: 960px;
@@ -526,7 +657,7 @@ body, .wrapCommon {
  }
 
 @media (max-width: 720px) {
-  /* line 209, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+  /* line 266, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
   .wrapCommonInner {
     padding: 0 15px;
     max-width: 720px;
@@ -534,7 +665,7 @@ body, .wrapCommon {
  }
 
 @media (max-width: 480px) {
-  /* line 217, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+  /* line 274, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
   .wrapCommonInner {
     padding: 0 5px;
     max-width: 480px;
@@ -542,7 +673,7 @@ body, .wrapCommon {
  }
 
 @media (max-width: 320px) {
-  /* line 225, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+  /* line 282, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
   .wrapCommonInner {
     padding: 0 10px;
     max-width: 320px;
@@ -551,12 +682,8 @@ body, .wrapCommon {
 
 /*\\\COMMON STYLES FOR COMMON WRAPER\\\COMMON STYLES FOR COMMON WRAPER\\\*/
 /*\\\SUPPORTING DEVELOPER STYLES\\\SUPPORTING DEVELOPER STYLES\\\*/
-/* line 236, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
-* {
-  outline: 2px solid black; }
-
-/* line 240, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
-div {
+/* line 297, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
+.footer * {
   outline: 1px dotted red; }
 
 /*\\\SUPPORTING DEVELOPER STYLES\\\SUPPORTING DEVELOPER STYLES\\\*/
@@ -852,84 +979,210 @@ div {
 /* line 1, D:/learn_HTML/projects/Kseniya/promolenta/sass/footer */
 .footer {
   text-align: center;
-  font-size: 0; }
-  /* line 5, D:/learn_HTML/projects/Kseniya/promolenta/sass/footer */
+  font-size: 0;
+  padding-top: 55px;
+  padding-bottom: 55px;
+  border-top: 1px solid #dbdbdb; }
+  /* line 8, D:/learn_HTML/projects/Kseniya/promolenta/sass/footer */
   .footer__author {
     display: inline-block;
+    vertical-align: top;
     width: 25%;
-    font-size: 10px; }
-  /* line 11, D:/learn_HTML/projects/Kseniya/promolenta/sass/footer */
+    font-size: 12px;
+    line-height: 24px;
+    color: #b0b0b0;
+    margin: 0;
+    text-align: left; }
+    /* line 18, D:/learn_HTML/projects/Kseniya/promolenta/sass/footer */
+    .footer__author p {
+      margin: 0;
+      max-width: 225px; }
+  /* line 24, D:/learn_HTML/projects/Kseniya/promolenta/sass/footer */
   .footer__address {
     display: inline-block;
+    vertical-align: top;
     width: 25%;
-    font-size: 10px; }
-  /* line 17, D:/learn_HTML/projects/Kseniya/promolenta/sass/footer */
+    padding-left: 15px;
+    margin: 0;
+    border-left: 2px solid #d36b19;
+    text-align: left;
+    font-size: 12px;
+    line-height: 24px;
+    color: #2b2b2b; }
+    /* line 36, D:/learn_HTML/projects/Kseniya/promolenta/sass/footer */
+    .footer__address p {
+      margin: 0;
+      max-width: 170px; }
+  /* line 42, D:/learn_HTML/projects/Kseniya/promolenta/sass/footer */
   .footer__phones {
     display: inline-block;
-    width: 25%;
-    font-size: 10px; }
-  /* line 23, D:/learn_HTML/projects/Kseniya/promolenta/sass/footer */
+    vertical-align: top;
+    width: 22%;
+    font-size: 12px;
+    line-height: 24px;
+    color: #2b2b2b;
+    margin: 0; }
+  /* line 52, D:/learn_HTML/projects/Kseniya/promolenta/sass/footer */
   .footer__socialBlock {
     display: inline-block;
-    width: 25%;
-    font-size: 10px; }
+    vertical-align: top;
+    width: 28%;
+    font-size: 10px;
+    text-align: right; }
+
+/* line 61, D:/learn_HTML/projects/Kseniya/promolenta/sass/footer */
+.fPhones__item {
+  max-width: 165px;
+  text-align: right;
+  margin: 0; }
+  /* line 65, D:/learn_HTML/projects/Kseniya/promolenta/sass/footer */
+  .fPhones__item span {
+    color: #b0b0b0; }
+
+/* line 70, D:/learn_HTML/projects/Kseniya/promolenta/sass/footer */
+.socialIcons {
+  margin: 0; }
+
+/* line 74, D:/learn_HTML/projects/Kseniya/promolenta/sass/footer */
+.socialIcon:before {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  margin-bottom: 8px;
+  font-size: 18px;
+  line-height: 28px;
+  color: #f1f1f1;
+  width: 28px;
+  height: 28px;
+  margin-left: 5px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background: #cecece;
+  cursor: pointer;
+  text-decoration: none; }
+
+/* line 95, D:/learn_HTML/projects/Kseniya/promolenta/sass/footer */
+.socialIcon:hover:before, .socialIcon:active:before, .socialIcon:focus:before {
+  background-color: #d36b19;
+  text-decoration: none;
+  color: #f1f1f1; }
+
+/* line 101, D:/learn_HTML/projects/Kseniya/promolenta/sass/footer */
+.aboutMap {
+  font-size: 12px;
+  line-height: 20px;
+  color: #3e92ae;
+  vertical-align: middle;
+  margin: 0;
+  padding-top: 3px; }
+  /* line 109, D:/learn_HTML/projects/Kseniya/promolenta/sass/footer */
+  .aboutMap a {
+    text-decoration: underline; }
+  /* line 115, D:/learn_HTML/projects/Kseniya/promolenta/sass/footer */
+  .aboutMap a:hover, .aboutMap a:active, .aboutMap a:focus {
+    color: #d36b19;
+    text-decoration: none; }
+  /* line 120, D:/learn_HTML/projects/Kseniya/promolenta/sass/footer */
+  .aboutMap img {
+    display: inline-block;
+    max-width: 90px;
+    vertical-align: middle;
+    margin-left: 35px; }
 
 @media (max-width: 960px) {
-  /* line 33, D:/learn_HTML/projects/Kseniya/promolenta/sass/footer */
+  /* line 131, D:/learn_HTML/projects/Kseniya/promolenta/sass/footer */
   .footer__author {
-    width: 25%; }
-  /* line 37, D:/learn_HTML/projects/Kseniya/promolenta/sass/footer */
+    width: 22%; }
+  /* line 135, D:/learn_HTML/projects/Kseniya/promolenta/sass/footer */
   .footer__address {
-    width: 25%; }
-  /* line 41, D:/learn_HTML/projects/Kseniya/promolenta/sass/footer */
+    width: 22%; }
+  /* line 139, D:/learn_HTML/projects/Kseniya/promolenta/sass/footer */
   .footer__phones {
-    width: 25%; }
-  /* line 45, D:/learn_HTML/projects/Kseniya/promolenta/sass/footer */
+    width: 22%; }
+  /* line 143, D:/learn_HTML/projects/Kseniya/promolenta/sass/footer */
   .footer__socialBlock {
-    width: 25%; }
+    width: 34%; }
  }
 
 @media (max-width: 720px) {
-  /* line 54, D:/learn_HTML/projects/Kseniya/promolenta/sass/footer */
+  /* line 152, D:/learn_HTML/projects/Kseniya/promolenta/sass/footer */
   .footer__author {
-    width: 25%; }
-  /* line 58, D:/learn_HTML/projects/Kseniya/promolenta/sass/footer */
+    width: 33%; }
+  /* line 156, D:/learn_HTML/projects/Kseniya/promolenta/sass/footer */
   .footer__address {
-    width: 25%; }
-  /* line 62, D:/learn_HTML/projects/Kseniya/promolenta/sass/footer */
+    width: 33%; }
+  /* line 160, D:/learn_HTML/projects/Kseniya/promolenta/sass/footer */
   .footer__phones {
-    width: 25%; }
-  /* line 66, D:/learn_HTML/projects/Kseniya/promolenta/sass/footer */
+    width: 33%;
+    text-align: right; }
+  /* line 165, D:/learn_HTML/projects/Kseniya/promolenta/sass/footer */
   .footer__socialBlock {
-    width: 100%; }
+    width: 100%;
+    text-align: center;
+    margin-top: 60px; }
+
+  /* line 172, D:/learn_HTML/projects/Kseniya/promolenta/sass/footer */
+  .fPhones__item {
+    max-width: none; }
+
+  /* line 176, D:/learn_HTML/projects/Kseniya/promolenta/sass/footer */
+  .aboutMap a {
+    display: inline-block;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+
+  /* line 183, D:/learn_HTML/projects/Kseniya/promolenta/sass/footer */
+  .aboutMap img {
+    display: inline-block;
+    width: 100%;
+    margin-left: 0; }
  }
 
 @media (max-width: 480px) {
-  /* line 75, D:/learn_HTML/projects/Kseniya/promolenta/sass/footer */
+  /* line 193, D:/learn_HTML/projects/Kseniya/promolenta/sass/footer */
   .footer__author {
-    width: 100%; }
-  /* line 79, D:/learn_HTML/projects/Kseniya/promolenta/sass/footer */
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 40px; }
+    /* line 199, D:/learn_HTML/projects/Kseniya/promolenta/sass/footer */
+    .footer__author p {
+      max-width: none;
+      text-align: center; }
+  /* line 205, D:/learn_HTML/projects/Kseniya/promolenta/sass/footer */
   .footer__address {
-    width: 50%; }
-  /* line 83, D:/learn_HTML/projects/Kseniya/promolenta/sass/footer */
+    width: 50%;
+    border: none; }
+  /* line 210, D:/learn_HTML/projects/Kseniya/promolenta/sass/footer */
   .footer__phones {
-    width: 50%; }
-  /* line 87, D:/learn_HTML/projects/Kseniya/promolenta/sass/footer */
+    width: 50%;
+    padding-right: 15px; }
+  /* line 215, D:/learn_HTML/projects/Kseniya/promolenta/sass/footer */
   .footer__socialBlock {
     width: 100%; }
  }
 
 @media (max-width: 320px) {
-  /* line 97, D:/learn_HTML/projects/Kseniya/promolenta/sass/footer */
+  /* line 228, D:/learn_HTML/projects/Kseniya/promolenta/sass/footer */
   .footer__author {
     width: 100%; }
-  /* line 101, D:/learn_HTML/projects/Kseniya/promolenta/sass/footer */
+  /* line 233, D:/learn_HTML/projects/Kseniya/promolenta/sass/footer */
   .footer__address {
-    width: 100%; }
-  /* line 105, D:/learn_HTML/projects/Kseniya/promolenta/sass/footer */
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+    padding-left: 50px;
+    padding-right: 50px; }
+  /* line 241, D:/learn_HTML/projects/Kseniya/promolenta/sass/footer */
   .footer__phones {
     width: 100%; }
-  /* line 109, D:/learn_HTML/projects/Kseniya/promolenta/sass/footer */
+  /* line 245, D:/learn_HTML/projects/Kseniya/promolenta/sass/footer */
   .footer__socialBlock {
     width: 100%; }
+
+  /* line 250, D:/learn_HTML/projects/Kseniya/promolenta/sass/footer */
+  .fPhones__item {
+    text-align: center; }
  }
