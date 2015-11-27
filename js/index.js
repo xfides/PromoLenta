@@ -26,6 +26,41 @@ function ready() {
     var NextBySearch = document.querySelector(".search+*");
     var NextByHeaderNav = document.querySelector(".headerNav+*");
 
+    // -*- перестройка контактов header-*- перестройка контактов header -*-
+    if (windowWidth <= 480) {
+      var NextByRealContacts = document.querySelector(".realContacts+*");
+      var realContacts = document.querySelector(".realContacts");
+      var inetContacts = document.querySelector(".inetContacts");
+
+      //console.log(NextByRealContacts);
+      //console.log(realContacts);
+      //console.log(inetContacts);
+
+      if (
+        (NextByRealContacts === inetContacts)
+      ) {
+        //console.log("order 480 right");
+      } else {
+        //console.log("order 480 wrong");
+        headerContacts.insertBefore(realContacts, inetContacts);
+      }
+    } else {
+      var NextByRealContacts = document.querySelector(".realContacts+*");
+      var realContacts = document.querySelector(".realContacts");
+      var inetContacts = document.querySelector(".inetContacts");
+
+      if (
+        (NextByRealContacts === inetContacts)
+      ) {
+        console.log("order >=480 wrong");
+        headerContacts.insertBefore(inetContacts, realContacts);
+      } else {
+        console.log("order >=480 right");
+      }
+
+    }
+    // -*- перестройка контактов header-*- перестройка контактов header -*-
+
     if (windowWidth <= 320) {
       if (
         (NextByHeaderContacts === headerLogo) &&
@@ -51,7 +86,7 @@ function ready() {
         //console.log("header's order is right");
         return;
       } else {
-       // console.log("header's order is wrong");
+        // console.log("header's order is wrong");
         wrapAllHeader.insertBefore(search, breadcrumbs);
         wrapAllHeader.insertBefore(headerNav, search);
         wrapAllHeader.insertBefore(headerLogo, headerNav);
@@ -99,12 +134,13 @@ function ready() {
         //console.log("header's order is right");
         return;
       } else {
-       //console.log("header's order is wrong");
+        //console.log("header's order is wrong");
         wrapAllHeader.insertBefore(headerNav, breadcrumbs);
         wrapAllHeader.insertBefore(headerLogo, headerNav);
         wrapAllHeader.insertBefore(search, headerLogo);
       }
     }
+
   }
 
   // функция, перестраивающая content в зависимости от ширины экрана
@@ -120,6 +156,7 @@ function ready() {
     var contentNav = document.querySelector(".contentNav");
     var info = document.querySelector(".info");
     var payOnline = document.querySelector(".payOnline");
+
     function toBuildLeftColumn() {
       var BitsOfWholeLeftColumn = document.createDocumentFragment();
       BitsOfWholeLeftColumn.appendChild(contentNav);
@@ -133,7 +170,7 @@ function ready() {
     if (windowWidth <= 720) {
       //console.log(leftColumn.children.length);
       if (leftColumn.children.length === 0) {
-      	return;
+        return;
       } else {
         var BitsOfContent = document.createDocumentFragment();
         //console.log("not empty");
@@ -161,7 +198,7 @@ function ready() {
     }
 
     if (windowWidth >= 960) {
-      if (rightColumn.children.length !== 0){
+      if (rightColumn.children.length !== 0) {
         return;
       } else {
         var BitsOfLeftColumn = document.createDocumentFragment();
@@ -216,9 +253,6 @@ function ready() {
   }
 
   // объявление переменных и функций -*- объявление переменных и функций -*-
-
-
-
 
 
   // выполнение кода -*-выполнение кода -*-выполнение кода -*-
