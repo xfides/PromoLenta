@@ -89,18 +89,29 @@
         <!-- /.headerContacts -->
 
         <div class="headerLogo">
-          <img class="img-responsive center-block" src="img/logo.png"
-               alt="Логотип ПромоЛенты">
+          <a href="#">
+            <img class="img-responsive center-block" src="img/logo.png"
+                 alt="Логотип ПромоЛенты">
+          </a>
         </div>
         <!-- /.headerLogo -->
 
         <div class="search">
-          <span class="icon-search"></span>
-          <input type="text" name="search" value="" placeholder=  "Поиск">
+          <p class="search__inner">
+            <span class="icon-search"></span>
+            <input type="text" name="search" value="" placeholder="Поиск">
+          </p>
         </div>
         <!-- /.search -->
 
-        <nav class="headerNav">
+        <nav class="headerNav clearfix">
+
+          <button class="headerNav__btn">
+            МЕНЮ
+            <span class="icon-menu"></span>
+          </button>
+          <!-- /.headerNav__btn -->
+
           <ul class="headerNav__list">
             <li><a href="#">Главная</a></li>
             <li><a href="#">Продукция</a></li>
