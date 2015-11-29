@@ -27,7 +27,7 @@ function ready() {
     var NextByHeaderNav = document.querySelector(".headerNav+*");
 
     // -*- перестройка контактов header-*- перестройка контактов header -*-
-    if (windowWidth <= 480) {
+    if (windowWidth <= 482) {
       var NextByRealContacts = document.querySelector(".realContacts+*");
       var realContacts = document.querySelector(".realContacts");
       var inetContacts = document.querySelector(".inetContacts");
@@ -61,7 +61,7 @@ function ready() {
     }
     // -*- перестройка контактов header-*- перестройка контактов header -*-
 
-    if (windowWidth <= 320) {
+    if (windowWidth <= 322) {
       if (
         (NextByHeaderContacts === headerLogo) &&
         (NextByHeaderLogo === search) &&
@@ -77,7 +77,7 @@ function ready() {
       }
     }
 
-    if ((windowWidth >= 320) && (windowWidth <= 480)) {
+    if ((windowWidth >= 322) && (windowWidth <= 482)) {
       if (
         (NextByHeaderContacts === headerLogo) &&
         (NextByHeaderLogo === headerNav) &&
@@ -93,7 +93,7 @@ function ready() {
       }
     }
 
-    if ((windowWidth >= 480) && (windowWidth <= 720)) {
+    if ((windowWidth >= 482) && (windowWidth <= 722)) {
       if (
         (NextByHeaderContacts === headerLogo) &&
         (NextByHeaderLogo === search) &&
@@ -109,7 +109,7 @@ function ready() {
       }
     }
 
-    if ((windowWidth >= 720) && (windowWidth <= 960)) {
+    if ((windowWidth >= 722) && (windowWidth <= 962)) {
       if (
         (NextByHeaderContacts === search) &&
         (NextBySearch === headerLogo) &&
@@ -125,7 +125,7 @@ function ready() {
       }
     }
 
-    if (windowWidth >= 960) {
+    if (windowWidth >= 962) {
       if (
         (NextByHeaderContacts === search) &&
         (NextBySearch === headerLogo) &&
@@ -167,7 +167,7 @@ function ready() {
       leftColumn.appendChild(BitsOfWholeLeftColumn);
     }
 
-    if (windowWidth <= 720) {
+    if (windowWidth <= 722) {
       //console.log(leftColumn.children.length);
       if (leftColumn.children.length === 0) {
         return;
@@ -185,7 +185,7 @@ function ready() {
       }
     }
 
-    if ((windowWidth >= 720) && (windowWidth <= 960)) {
+    if ((windowWidth >= 722) && (windowWidth <= 962)) {
       if (leftColumn.children.length === 0) {
         toBuildLeftColumn();
         return;
@@ -197,7 +197,7 @@ function ready() {
       }
     }
 
-    if (windowWidth >= 960) {
+    if (windowWidth >= 962) {
       if (rightColumn.children.length !== 0) {
         return;
       } else {
