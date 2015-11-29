@@ -658,7 +658,7 @@ body, .wrapCommon {
   padding: 0 15px;
   max-width: 1290px; }
 
-@media (max-width: 960px) {
+@media (max-width: 962px) {
   /* line 260, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
   .wrapCommonInner {
     padding: 0 25px;
@@ -666,7 +666,7 @@ body, .wrapCommon {
     background: lightgreen; }
  }
 
-@media (max-width: 720px) {
+@media (max-width: 722px) {
   /* line 268, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
   .wrapCommonInner {
     padding: 0 2px;
@@ -674,7 +674,7 @@ body, .wrapCommon {
     background: yellow; }
  }
 
-@media (max-width: 480px) {
+@media (max-width: 482px) {
   /* line 276, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
   .wrapCommonInner {
     padding: 0 5px;
@@ -682,7 +682,7 @@ body, .wrapCommon {
     background: orange; }
  }
 
-@media (max-width: 320px) {
+@media (max-width: 322px) {
   /* line 284, D:/learn_HTML/projects/Kseniya/promolenta/sass/common */
   .wrapCommonInner {
     padding: 0;
