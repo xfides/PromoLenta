@@ -45,6 +45,7 @@ function ready() {
         headerContacts.insertBefore(realContacts, inetContacts);
       }
     } else {
+
       var NextByRealContacts = document.querySelector(".realContacts+*");
       var realContacts = document.querySelector(".realContacts");
       var inetContacts = document.querySelector(".inetContacts");
@@ -58,6 +59,7 @@ function ready() {
         console.log("order >=480 right");
       }
 
+      $(".headerNav__list").removeAttr("style");
     }
     // -*- перестройка контактов header-*- перестройка контактов header -*-
 
@@ -260,6 +262,89 @@ function ready() {
   var toSlowRebuild = throttle(toRebuildHtml, 100);
   $(window).resize(toSlowRebuild);
   // выполнение кода -*-выполнение кода -*-выполнение кода -*-
+
+
+  //  -*-accordion-*-accordion-*-accordion-*-accordion-*-
+
+  function openFirstPanel() {
+    $('.accordion__item:first-child>.accordion__describe')
+      .addClass('active').slideDown();
+  }
+
+  (function ($) {
+    var allPanels = $('.accordion__describe').hide();
+    openFirstPanel();
+
+    $('.accordion__item').click(function () {
+      $this = $(this);
+      $target = $this.find(".accordion__describe");
+      console.log($target);
+
+      if ($target.hasClass('active')) {
+        $target.removeClass('active').slideUp();
+      } else {
+        allPanels.removeClass('active').slideUp();
+        $target.addClass('active').slideDown();
+      }
+
+      return false;
+    });
+
+  })(jQuery);
+
+  //  -*-accordion-*-accordion-*-accordion-*-accordion-*-
+
+  /*--------Кнопка прокрутить вверх------------*/
+
+// сама кнопка с документом
+  var html = document.documentElement;
+  var body = document.body;
+  var btnUp = document.querySelector(".btnUp");
+// сама кнопка
+
+// функция скролла вверх
+  function toScrollTop() {
+    $('html, body').animate({scrollTop: 0}, 500);
+    return false;
+  };
+// функция скролла вверх
+
+// показ кнопки прокрутить вверх
+  $(window).scroll(function () {
+    var scrollTop = html.scrollTop || body && body.scrollTop || 0;
+    scrollTop -= html.clientTop;
+    if (scrollTop > 500) {
+      btnUp.style.display = "block";
+    } else {
+      btnUp.style.display = "none";
+    }
+  });
+// показ кнопки прокрутить вверх
+
+// выполнить действие проскролить вверх
+  $(btnUp).click(toScrollTop);
+// выполнить действие проскролить вверх
+
+  /*--------Кнопка прокрутить вверх------------*/
+
+  /*\\\Сворачивание и разворачивание верхнего меню в моб версии\\\*/
+  var headerNavBtn = $(".headerNav__btn");
+  var headerNavList = $(".headerNav__list");
+
+  headerNavBtn.click(function () {
+    headerNavList.slideToggle();
+    return;
+  });
+  /*\\\Сворачивание и разворачивание верхнего меню в моб версии\\\*/
+
+  /*\\\сворачивание инфомрационных блоков в контекте\\\*/
+  var infoBlocks = $(".info__title");
+
+  infoBlocks.click(function () {
+    $(this).next().slideToggle();
+  });
+
+  /*\\\сворачивание инфомрационных блоков в контекте\\\*/
 
 }
 /*\\\весь скриптовыый код здесь\\\весь скриптовыый код здесь\\\*/
