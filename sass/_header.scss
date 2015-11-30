@@ -38,6 +38,9 @@
     list-style-type: none;
     text-align: center;
     background-color: rgba(53, 53, 53, 0.75);
+    background-image: url(../img/bg__gray.jpg);
+    background-repeat: repeat;
+    background-position: 0 0;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
@@ -71,6 +74,9 @@
     background-position: 0 0;
     outline: none;
     border: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
   }
 
   & a:hover:before{
@@ -162,9 +168,9 @@
     content: "\2302";
   }
 
-  & li:last-child a{
-    color: #d05f5f;
-  }
+  //& li:last-child a{
+  //  color: #d05f5f;
+  //}
   
   & a{
     font-size: 13px;
