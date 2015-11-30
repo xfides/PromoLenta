@@ -269,22 +269,26 @@ function ready() {
   function openFirstPanel() {
     $('.accordion__item:first-child>.accordion__describe')
       .addClass('active').slideDown();
+    $('.accordion__item:first-child').find("h3").addClass("upArrow");
   }
 
   (function ($) {
     var allPanels = $('.accordion__describe').hide();
+    var contentNavTitles = $(".contentNav__title");
     openFirstPanel();
 
-    $('.accordion__item').click(function () {
+    $('.contentNav__title').click(function () {
       $this = $(this);
-      $target = $this.find(".accordion__describe");
-      console.log($target);
+      $target = $this.next();
 
       if ($target.hasClass('active')) {
         $target.removeClass('active').slideUp();
+        $this.removeClass("upArrow");
       } else {
         allPanels.removeClass('active').slideUp();
+        contentNavTitles.removeClass("upArrow");
         $target.addClass('active').slideDown();
+        $this.addClass("upArrow");
       }
 
       return false;
