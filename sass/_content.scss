@@ -70,7 +70,7 @@
     border-radius: 5px;
     cursor: pointer;
     //top: 3px;
-    z-index: 3;
+    //z-index: 3;
 
     &:after {
       font-family: fontello;
@@ -81,6 +81,7 @@
       position: absolute;
       right: 10px;
       top: 12px;
+      z-index: 3;
     }
 
     &.upArrow{
@@ -94,6 +95,8 @@
 
     &.upArrow:after {
       content: '\e75f';
+      z-index: 3;
+      color: #fff;
     }
   }
 
