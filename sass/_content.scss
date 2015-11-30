@@ -1,6 +1,31 @@
 .wrapContent {
   text-align: center;
   padding-bottom: 60px;
+
+  & > h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    background-color: #d36b19;
+    background-image: url(../img/bg__orange.jpg);
+    background-repeat: repeat;
+    background-position: 0 0;
+    padding-left: 15px;
+    padding-right: 30px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    font-family: "open_sans_condensed_bold", "Tahoma", "Geneva", sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: -0.015em;
+    color: #fff;
+    text-transform: uppercase;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-align: left;
+    width: 53%;
+    margin-left: 24%;
+  }
 }
 
 .contentNav {
@@ -46,7 +71,7 @@
     border-radius: 0 0 5px 5px;
   }
 
-  & > ul ul > li{
+  & > ul ul > li {
     display: inline-block;
     vertical-align: top;
     width: 100%;
@@ -69,8 +94,7 @@
     -moz-border-radius: 5px;
     border-radius: 5px;
     cursor: pointer;
-    //top: 3px;
-    //z-index: 3;
+    font-size: 16px;
 
     &:after {
       font-family: fontello;
@@ -84,7 +108,7 @@
       z-index: 3;
     }
 
-    &.upArrow{
+    &.upArrow {
       -webkit-border-radius: 5px 5px 0 0;
       -moz-border-radius: 5px 5px 0 0;
       border-radius: 5px 5px 0 0;
@@ -152,6 +176,24 @@
 }
 
 .goods {
+
+  &__Another {
+    background: #fff;
+    margin-top: 0;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    -webkit-border-radius: 0 0 5px 5px;
+    -moz-border-radius: 0 0 5px 5px;
+    border-radius: 0 0 5px 5px;
+    margin-bottom: 15px;
+
+    & .goods__item {
+      margin-top: 25px;
+      margin-bottom: 5px;
+    }
+  }
+
   width: 53%;
   margin-left: 24%;
 
@@ -185,7 +227,7 @@
     overflow: hidden;
   }
 
-  & h3 {
+  & h4 {
     font-size: 18px;
     line-height: 21px;
     color: #2b2b2b;
@@ -241,6 +283,37 @@
 
 }
 
+.goods__intro {
+  background: #fff;
+  -webkit-border-radius: 5px 5px 0 0;
+  -moz-border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0;
+  text-align: left;
+
+  &__title {
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #6d6d6d;
+    font-family: "open_sans_bold", "Tahoma", "Geneva", sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    padding-top: 15px;
+    text-transform: uppercase;
+  }
+
+  & .goods__intro__paragraph {
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #6d6d6d;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: normal;
+    padding-bottom: 5px;
+    margin-bottom: 0;
+  }
+
+}
+
 .payOnline {
   width: 53%;
   margin-left: 24%;
@@ -256,6 +329,10 @@
   padding-top: 10px;
   padding-bottom: 10px;
   overflow: hidden;
+
+  &__invisible {
+    display: none;
+  }
 
   & h3 {
     text-align: left;
@@ -374,7 +451,7 @@
   &__block {
     margin-bottom: 23px;
 
-    &:last-child{
+    &:last-child {
       margin-bottom: 0;
     }
   }
@@ -480,6 +557,13 @@
 
 @media (max-width: 962px) {
 
+  .wrapContent {
+    & > h2 {
+      width: 70%;
+      margin-left: 30%;
+    }
+  }
+
   .leftColumn, {
     float: left;
     width: 28%;
@@ -528,6 +612,13 @@
 
 @media (max-width: 722px) {
 
+  .wrapContent {
+    & > h2 {
+      width: 100%;
+      margin-left: 0;
+    }
+  }
+
   .contentNav {
     width: 100%;
 
@@ -568,6 +659,18 @@
 
     &__item {
       width: 31%;
+    }
+  }
+
+  .goods__intro {
+
+    & .goods__intro__paragraph{
+      display: none;
+    }
+
+    & .goods__intro__paragraph:nth-child(1),
+    & .goods__intro__paragraph:nth-child(2){
+      display: block;
     }
   }
 
@@ -627,7 +730,7 @@
       vertical-align: top;
       width: 30%;
 
-      &:last-child{
+      &:last-child {
         margin-bottom: 23px;
       }
     }
@@ -739,7 +842,6 @@
     }
   }
 
-
 }
 
 @media (max-width: 322px) {
@@ -779,6 +881,14 @@
     &__item:nth-child(4),
     &__item:nth-child(5),
     &__item:nth-child(6) {
+      display: none;
+    }
+
+  }
+
+  .goods__intro {
+
+    & .goods__intro__paragraph:nth-child(2){
       display: none;
     }
 
