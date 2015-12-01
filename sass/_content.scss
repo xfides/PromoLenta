@@ -1,3 +1,8 @@
+.toCenterContent{
+  width:53%;
+  margin-left: 24%;
+}
+
 .wrapContent {
   text-align: center;
   padding-bottom: 60px;
@@ -186,6 +191,23 @@
     -webkit-border-radius: 0 0 5px 5px;
     -moz-border-radius: 0 0 5px 5px;
     border-radius: 0 0 5px 5px;
+    margin-bottom: 15px;
+
+    & .goods__item {
+      margin-top: 25px;
+      margin-bottom: 5px;
+    }
+  }
+
+  &__Another2 {
+    background: #fff;
+    margin-top: 0;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
     margin-bottom: 15px;
 
     & .goods__item {
@@ -557,6 +579,11 @@
 
 @media (max-width: 962px) {
 
+  .toCenterContent{
+    width:70%;
+    margin-left: 30%;
+  }
+
   .wrapContent {
     & > h2 {
       width: 70%;
@@ -611,6 +638,11 @@
 }
 
 @media (max-width: 722px) {
+
+  .toCenterContent{
+    width:100%;
+    margin-left: 0;
+  }
 
   .wrapContent {
     & > h2 {
@@ -746,6 +778,11 @@
 
 @media (max-width: 482px) {
 
+  .toCenterContent{
+    width:100%;
+    margin-left: 0;
+  }
+
   .contentNav {
     width: 100%;
 
@@ -846,6 +883,11 @@
 
 @media (max-width: 322px) {
 
+  .toCenterContent{
+    width:100%;
+    margin-left: 0;
+  }
+
   .contentNav {
     width: 100%;
 
@@ -935,4 +977,80 @@
     }
   }
 
+}
+
+
+
+
+
+.lentaSlider{
+  width: 95%;
+  margin: 0 auto;
+
+  & .slide__content {
+    padding: 10px;
+  }
+
+  & img{
+    padding: 5px;
+    border: 1px solid #e3e3e4;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    display: block;
+    max-width: 185px;
+    height: auto;
+    margin: 0 auto;
+  }
+}
+
+.slick-prev, .slick-next {
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  top: 50%;
+  z-index: 6;
+  display: block;
+  margin-top: -15px;
+  padding: 0;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+
+.slick-prev:hover:before, 
+.slick-next:hover:before {
+  color: #d36b19;
+}
+
+
+.slick-prev:before {
+  display: inline;
+  content: '\e75d';
+  font-size: 24px;
+  line-height: 30px;
+  color: #7f7f7f;
+  font-family: "fontello";
+  cursor: pointer;
+}
+
+
+.slick-next:before {
+  display: inline;
+  content: '\e75e';
+  font-size: 24px;
+  line-height: 30px;
+  color: #7f7f7f;
+  font-family: fontello;
+  cursor: pointer;
+}
+
+.slick-prev{
+  left: -20px;
+}
+
+.slick-next {
+  right: -20px;
 }

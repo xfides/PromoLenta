@@ -342,15 +342,57 @@ function ready() {
   /*\\\Сворачивание и разворачивание верхнего меню в моб версии\\\*/
 
   /*\\\сворачивание инфомрационных блоков в контекте\\\*/
-/*
-  var infoBlocks = $(".info__title");
+  /*
+    var infoBlocks = $(".info__title");
 
-  infoBlocks.click(function () {
-    $(this).next().slideToggle();
-  });
-*/
+    infoBlocks.click(function () {
+      $(this).next().slideToggle();
+    });
+  */
 
   /*\\\сворачивание инфомрационных блоков в контекте\\\*/
+
+
+  /*\\\слайдер\\\слайдер\\\слайдер\\\слайдер\\\слайдер\\\*/
+
+  $('.lentaSlider').slick({
+    appendArrows: $('.lentaSlider'),
+    accessibility: true,
+    dots: false,
+    infinite: true,
+    autoplay: true,
+    speed: 300,
+    autoplaySpeed: 7000,
+    draggable: true,
+    arrows: true,
+    useCSS: true,
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    waitForAnimate: true,
+    responsive: [
+      {
+        breakpoint: 482,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          infinite: true,
+          dots: false
+        }
+      },
+      {
+        breakpoint: 322,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: false
+        }
+      }
+    ]
+  });
+
+
+  /*\\\слайдер\\\слайдер\\\слайдер\\\слайдер\\\слайдер\\\*/
 
 }
 /*\\\весь скриптовыый код здесь\\\весь скриптовыый код здесь\\\*/
