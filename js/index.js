@@ -394,5 +394,17 @@ function ready() {
 
   /*\\\слайдер\\\слайдер\\\слайдер\\\слайдер\\\слайдер\\\*/
 
+  /*\\\подсветка столбцов таблицы\\\подсветка столбцов таблицы\\\*/
+  $(".setTable__table td:not(.footer,.notHoverColor)").on("mouseenter mouseleave",
+    function () {
+    if ($(this).parents(".setTable__table tr").attr("class") != "up_row") {
+      var td_index = $(this).index();
+      $(this).parents(".setTable__table").find("tr:not(.up_row)").each(function () {
+        $("td:eq(" + td_index + ")", this).toggleClass("lighting_col");
+      });
+    }
+  });
+  /*\\\подсветка столбцов таблицы\\\подсветка столбцов таблицы\\\*/
+
 }
 /*\\\весь скриптовыый код здесь\\\весь скриптовыый код здесь\\\*/

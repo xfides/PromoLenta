@@ -168,17 +168,18 @@
     content: "\2302";
   }
 
-  //& li:last-child a{
-  //  color: #d05f5f;
-  //}
+  & li:last-child a{
+    color: #595959;
+    text-decoration: none;
+  }
   
   & a{
     font-size: 13px;
     line-height: 32px;
-    color: #595959;
-    //outline: 1px dotted red;
+    color: #3e92ae;
     padding-right: 5px;
     letter-spacing: -0.015em;
+    text-decoration: underline;
   }
 
   & a:hover,

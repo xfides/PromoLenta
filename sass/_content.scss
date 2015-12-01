@@ -979,9 +979,7 @@
 
 }
 
-
-
-
+/*\\\SLIDER\\\SLIDER\\\SLIDER\\\SLIDER\\\SLIDER\\\SLIDER\\\SLIDER\\\*/
 
 .lentaSlider{
   width: 95%;
@@ -1019,12 +1017,10 @@
   background-color: transparent;
 }
 
-
 .slick-prev:hover:before, 
 .slick-next:hover:before {
   color: #d36b19;
 }
-
 
 .slick-prev:before {
   display: inline;
@@ -1035,7 +1031,6 @@
   font-family: "fontello";
   cursor: pointer;
 }
-
 
 .slick-next:before {
   display: inline;
@@ -1054,3 +1049,50 @@
 .slick-next {
   right: -20px;
 }
+
+/*\\\SLIDER\\\SLIDER\\\SLIDER\\\SLIDER\\\SLIDER\\\SLIDER\\\SLIDER\\\*/
+
+/*\\\TABLE\\\TABLE\\\TABLE\\\TABLE\\\TABLE\\\TABLE\\\TABLE\\\TABLE\\\*/
+
+.setTable__table{
+  
+  & tr{
+    background-color: #eeeeee;
+  }
+
+  
+  & td:first-child, thead td {
+    background-image: url(../img/bg__LightGray.jpg);
+    background-repeat: repeat;
+    background-position: 0 0;
+  }
+
+  & td:first-child, th:first-child{
+    max-width: 90px;
+  }
+
+  & tbody tr:hover > td {
+    background: #fff;
+    background-image: none;
+  }
+
+  & td:hover{
+    background: #808080;
+    background-image: url(../img/bg__gray.jpg);
+    background-repeat: repeat;
+    background-position: 0 0;
+  }
+  
+
+
+
+}
+
+.lighting_col{
+  background: #ff5a00;
+  background-image: url(../img/bg__orange.jpg);
+  background-repeat: repeat;
+  background-position: 0 0;
+}
+
+/*\\\TABLE\\\TABLE\\\TABLE\\\TABLE\\\TABLE\\\TABLE\\\TABLE\\\TABLE\\\*/
