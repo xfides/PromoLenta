@@ -2347,29 +2347,54 @@ body, .wrapCommon {
 
 /*\\\SLIDER\\\SLIDER\\\SLIDER\\\SLIDER\\\SLIDER\\\SLIDER\\\SLIDER\\\*/
 /*\\\TABLE\\\TABLE\\\TABLE\\\TABLE\\\TABLE\\\TABLE\\\TABLE\\\TABLE\\\*/
-/* line 1059, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+/* line 1069, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
 .setTable__table tr {
   background-color: #eeeeee; }
-/* line 1064, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
-.setTable__table td:first-child, .setTable__table thead td {
+/* line 1073, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+.setTable__table tr:hover {
+  background-image: none;
+  background-color: #fff; }
+/* line 1078, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+.setTable__table tr:hover td:first-child {
+  background-image: none;
+  background-color: #fff; }
+/* line 1083, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+.setTable__table thead tr {
   background-image: url(../img/bg__LightGray.jpg);
   background-repeat: repeat;
   background-position: 0 0; }
-/* line 1070, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
-.setTable__table td:first-child, .setTable__table th:first-child {
-  max-width: 90px; }
-/* line 1074, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
-.setTable__table tbody tr:hover > td {
-  background: #fff;
-  background-image: none; }
-/* line 1079, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
-.setTable__table td:hover {
-  background: #808080;
+/* line 1089, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+.setTable__table thead tr:hover {
+  background-image: url(../img/bg__LightGray.jpg);
+  background-repeat: repeat;
+  background-position: 0 0; }
+/* line 1095, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+.setTable__table thead tr:hover td:first-child {
+  background-image: url(../img/bg__LightGray.jpg);
+  background-repeat: repeat;
+  background-position: 0 0; }
+/* line 1101, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+.setTable__table thead tr:hover td:first-child:hover {
+  background-image: url(../img/bg__LightGray.jpg);
+  background-repeat: repeat;
+  background-position: 0 0; }
+/* line 1107, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+.setTable__table td:not(.notHoverColor):hover {
   background-image: url(../img/bg__gray.jpg);
   background-repeat: repeat;
   background-position: 0 0; }
+/* line 1113, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+.setTable__table td:first-child {
+  background-image: url(../img/bg__LightGray.jpg);
+  background-repeat: repeat;
+  background-position: 0 0; }
+/* line 1119, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+.setTable__table tbody td:first-child:hover {
+  background-image: url(../img/bg__LightGray.jpg);
+  background-repeat: repeat;
+  background-position: 0 0; }
 
-/* line 1091, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+/* line 1127, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
 .lighting_col {
   background: #ff5a00;
   background-image: url(../img/bg__orange.jpg);
