@@ -395,15 +395,18 @@ function ready() {
   /*\\\слайдер\\\слайдер\\\слайдер\\\слайдер\\\слайдер\\\*/
 
   /*\\\подсветка столбцов таблицы\\\подсветка столбцов таблицы\\\*/
-  $(".setTable__table td:not(.footer,.notHoverColor)").on("mouseenter mouseleave",
-    function () {
-    if ($(this).parents(".setTable__table tr").attr("class") != "up_row") {
-      var td_index = $(this).index();
-      $(this).parents(".setTable__table").find("tr:not(.up_row)").each(function () {
-        $("td:eq(" + td_index + ")", this).toggleClass("lighting_col");
-      });
-    }
-  });
+
+    $(".setTable__table td:not(.left_col,.top_row,.right_col)").on("mouseenter mouseleave", function () {
+      if ($(this).parents(".lighting tr").attr("class") != "up_row") {
+        var td_index = $(this).index();
+        $(this).parents("tr").toggleClass("lighting_col");
+        $(this).parents(".lighting").find("tr:not(.up_row)").each(function () {
+          $("td:eq(" + td_index + ")", this).toggleClass("lighting_col");
+        });
+        $(this).toggleClass("lighting_cell");
+      }
+    });
+
   /*\\\подсветка столбцов таблицы\\\подсветка столбцов таблицы\\\*/
 
 }
