@@ -1798,13 +1798,14 @@ body, .wrapCommon {
   line-height: 20px;
   color: #6d6d6d;
   cursor: pointer;
-  vertical-align: middle; }
-/* line 428, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  vertical-align: middle;
+  text-align: left; }
+/* line 429, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
 .parameters input {
   display: none; }
-/* line 432, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+/* line 433, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
 .parameters input + label:before {
-  display: inline;
+  display: inline-block;
   content: '\f111';
   font-family: "fontello";
   color: #dbdbdb;
@@ -1815,23 +1816,23 @@ body, .wrapCommon {
   border-radius: 50%;
   margin-right: 4px;
   vertical-align: middle;
-  padding-left: 2px;
-  padding-right: 2px;
-  padding-top: 1px;
-  padding-bottom: 1px;
-  font-size: 12px; }
-/* line 451, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  font-size: 12px;
+  width: 16px;
+  height: 16px;
+  text-align: center;
+  line-height: 14px; }
+/* line 456, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
 .parameters input:checked + label:before {
   color: #d57122; }
 
-/* line 456, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+/* line 461, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
 .goods__intro {
   background: #fff;
   -webkit-border-radius: 5px 5px 0 0;
   -moz-border-radius: 5px 5px 0 0;
   border-radius: 5px 5px 0 0;
   text-align: left; }
-  /* line 463, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 468, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .goods__intro__title {
     padding-left: 15px;
     padding-right: 15px;
@@ -1841,7 +1842,7 @@ body, .wrapCommon {
     line-height: 24px;
     padding-top: 15px;
     text-transform: uppercase; }
-  /* line 474, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 479, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .goods__intro .goods__intro__paragraph {
     padding-left: 15px;
     padding-right: 15px;
@@ -1852,7 +1853,7 @@ body, .wrapCommon {
     padding-bottom: 5px;
     margin-bottom: 0; }
 
-/* line 487, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+/* line 492, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
 .payOnline {
   width: 53%;
   margin-left: 24%;
@@ -1868,10 +1869,10 @@ body, .wrapCommon {
   padding-top: 10px;
   padding-bottom: 10px;
   overflow: hidden; }
-  /* line 503, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 508, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .payOnline__invisible {
     display: none; }
-  /* line 507, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 512, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .payOnline h3 {
     text-align: left;
     float: left;
@@ -1889,7 +1890,7 @@ body, .wrapCommon {
     background-position: 0 0;
     letter-spacing: -0.015em; }
 
-/* line 527, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+/* line 532, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
 .writeRequest, .pattern {
   display: block;
   width: 100%;
@@ -1916,7 +1917,7 @@ body, .wrapCommon {
   letter-spacing: -0.015em;
   text-decoration: none; }
 
-/* line 554, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+/* line 559, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
 .writeRequest:hover {
   background-color: rgba(53, 53, 53, 0.75);
   background-image: url(../img/bg__gray.jpg);
@@ -1925,7 +1926,7 @@ body, .wrapCommon {
   text-decoration: none;
   color: #fff; }
 
-/* line 563, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+/* line 568, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
 .pattern:hover {
   background-color: rgba(53, 53, 53, 0.75);
   background-image: url(../img/bg__gray.jpg);
@@ -1934,13 +1935,13 @@ body, .wrapCommon {
   text-decoration: none;
   color: #fff; }
 
-/* line 572, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+/* line 577, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
 .writeRequest span, .pattern span {
   display: inline-block;
   width: 74%;
   vertical-align: top; }
 
-/* line 579, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+/* line 584, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
 .writeRequest__icon.icon-mail-alt {
   font-size: 36px;
   text-align: left;
@@ -1948,7 +1949,7 @@ body, .wrapCommon {
   width: 23%;
   line-height: 33px; }
 
-/* line 587, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+/* line 592, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
 .pattern__icon.icon-align-left {
   font-size: 36px;
   text-align: left;
@@ -1956,7 +1957,7 @@ body, .wrapCommon {
   width: 23%;
   line-height: 36px; }
 
-/* line 595, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+/* line 600, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
 .banner {
   width: 100%;
   background-color: #90315e;
@@ -1968,7 +1969,7 @@ body, .wrapCommon {
   margin-top: 25px;
   margin-bottom: 25px;
   overflow: hidden; }
-  /* line 607, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 612, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .banner h3 {
     margin-top: 75px;
     margin-bottom: 45px;
@@ -1978,16 +1979,16 @@ body, .wrapCommon {
     letter-spacing: -0.015em;
     text-transform: uppercase; }
 
-/* line 618, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+/* line 623, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
 .info {
   width: 100%; }
-  /* line 621, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 626, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .info__block {
     margin-bottom: 23px; }
-    /* line 624, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+    /* line 629, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
     .info__block:last-child {
       margin-bottom: 0; }
-  /* line 629, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 634, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .info ul {
     text-align: left;
     list-style-type: none;
@@ -1998,7 +1999,7 @@ body, .wrapCommon {
     background: #fff;
     font-size: 0;
     padding-left: 15px; }
-  /* line 641, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 646, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .info ul > li {
     font-family: "open_sans_condensed_bold", "Tahoma", "Geneva", sans-serif;
     font-size: 16px;
@@ -2011,7 +2012,7 @@ body, .wrapCommon {
     vertical-align: top;
     width: 100%;
     padding-right: 5px; }
-  /* line 655, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 660, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .info h3 {
     margin-top: 0;
     margin-bottom: 0;
@@ -2033,7 +2034,7 @@ body, .wrapCommon {
     letter-spacing: -0.015em;
     color: #fff;
     text-transform: uppercase; }
-  /* line 687, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 692, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .info a {
     color: #585858;
     letter-spacing: -0.015em;
@@ -2042,7 +2043,7 @@ body, .wrapCommon {
     font-size: 13px;
     line-height: 30px;
     text-decoration: none; }
-  /* line 697, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 702, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .info a:before {
     font-family: fontello;
     display: inline;
@@ -2052,94 +2053,94 @@ body, .wrapCommon {
     line-height: 30px;
     padding-right: 15px;
     text-decoration: none; }
-  /* line 711, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 716, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .info a:hover, .info a:focus, .info a:active {
     color: #d36b19; }
 
-/* line 716, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+/* line 721, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
 .leftColumn {
   float: left;
   width: 20%; }
 
-/* line 722, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+/* line 727, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
 .rightColumn {
   float: right;
   width: 20%; }
 
 @media (max-width: 962px) {
-  /* line 730, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 735, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .toCenterContent {
     width: 70%;
     margin-left: 30%; }
 
-  /* line 736, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 741, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .wrapContent > h2 {
     width: 70%;
     margin-left: 30%; }
 
-  /* line 742, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 747, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .leftColumn {
     float: left;
     width: 28%; }
 
-  /* line 747, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 752, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .rightColumn {
     float: right;
     width: 0; }
 
-  /* line 752, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 757, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .contentNav {
     width: 100%; }
 
-  /* line 756, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 761, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .pattern {
     width: 100%; }
 
-  /* line 760, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 765, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .goods {
     width: 70%;
     margin-left: 30%; }
-    /* line 764, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+    /* line 769, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
     .goods__item {
       width: 33%; }
 
-  /* line 769, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 774, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .payOnline {
     width: 70%;
     margin-left: 30%; }
 
-  /* line 774, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 779, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .writeRequest {
     width: 100%; }
 
-  /* line 778, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 783, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .banner {
     width: 100%; }
 
-  /* line 782, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 787, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .info {
     width: 100%; }
  }
 
 @media (max-width: 722px) {
-  /* line 790, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 795, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .toCenterContent {
     width: 100%;
     margin-left: 0; }
 
-  /* line 796, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 801, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .wrapContent > h2 {
     width: 100%;
     margin-left: 0; }
 
-  /* line 802, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 807, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .contentNav {
     width: 100%; }
-    /* line 805, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+    /* line 810, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
     .contentNav h3 {
       text-align: center;
       padding-right: 15px; }
-      /* line 809, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+      /* line 814, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
       .contentNav h3:after {
         font-family: fontello;
         font-size: 14px;
@@ -2148,76 +2149,76 @@ body, .wrapCommon {
         display: inline;
         position: static;
         padding-left: 10px; }
-    /* line 821, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+    /* line 826, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
     .contentNav > ul ul {
       font-size: 0;
       padding-left: 20%; }
-    /* line 826, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+    /* line 831, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
     .contentNav > ul ul > li {
       max-width: 45%; }
 
-  /* line 831, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 836, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .pattern {
     width: 100%;
     text-align: center; }
 
-  /* line 836, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 841, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .goods {
     width: 100%;
     margin-left: 0; }
-    /* line 840, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+    /* line 845, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
     .goods__item {
       width: 31%; }
 
-  /* line 847, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 852, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .goods__intro .goods__intro__paragraph {
     display: none; }
-  /* line 852, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 857, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .goods__intro .goods__intro__paragraph:nth-child(1), .goods__intro .goods__intro__paragraph:nth-child(2) {
     display: block; }
 
-  /* line 857, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 862, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .payOnline {
     width: 100%;
     margin-left: 0; }
 
-  /* line 862, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 867, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .writeRequest {
     width: 100%;
     text-align: center; }
 
-  /* line 867, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 872, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .writeRequest span, .pattern span {
     text-align: center;
     width: 30%; }
 
-  /* line 872, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 877, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .writeRequest__icon.icon-mail-alt {
     width: 10%;
     text-align: center; }
 
-  /* line 877, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 882, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .pattern__icon.icon-align-left {
     width: 10%;
     text-align: center; }
 
-  /* line 882, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 887, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .banner {
     width: 100%;
     min-height: 165px;
     background-color: #7f7f7f; }
-    /* line 887, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+    /* line 892, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
     .banner h3 {
       margin-top: 65px; }
 
-  /* line 892, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 897, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .info {
     width: 100%;
     font-size: 0;
     text-align: justify;
     -ms-text-align-last: justify;
     text-align-last: justify; }
-    /* line 899, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+    /* line 904, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
     .info:after {
       width: 100%;
       height: 0;
@@ -2225,15 +2226,15 @@ body, .wrapCommon {
       overflow: hidden;
       content: '';
       display: inline-block; }
-    /* line 908, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+    /* line 913, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
     .info__block {
       display: inline-block;
       vertical-align: top;
       width: 30%; }
-      /* line 913, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+      /* line 918, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
       .info__block:last-child {
         margin-bottom: 23px; }
-    /* line 918, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+    /* line 923, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
     .info h3 {
       padding-top: 5px;
       padding-bottom: 5px;
@@ -2241,204 +2242,204 @@ body, .wrapCommon {
  }
 
 @media (max-width: 482px) {
-  /* line 929, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 934, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .toCenterContent {
     width: 100%;
     margin-left: 0; }
 
-  /* line 934, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 939, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .contentNav {
     width: 100%; }
-    /* line 937, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+    /* line 942, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
     .contentNav > ul ul {
       font-size: 0;
       padding-left: 5%; }
-    /* line 942, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+    /* line 947, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
     .contentNav > ul ul > li {
       max-width: 50%; }
 
-  /* line 947, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 952, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .pattern {
     width: 100%; }
 
-  /* line 951, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 956, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .goods {
     width: 100%;
     margin-left: 0; }
-    /* line 955, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+    /* line 960, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
     .goods__item {
       width: 47%;
       display: none; }
-    /* line 965, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+    /* line 970, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
     .goods__item:nth-child(1), .goods__item:nth-child(2), .goods__item:nth-child(3), .goods__item:nth-child(4), .goods__item:nth-child(5), .goods__item:nth-child(6) {
       display: inline-block; }
 
-  /* line 971, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 976, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .payOnline {
     width: 100%;
     margin-left: 0; }
 
-  /* line 976, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 981, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .writeRequest {
     width: 100%; }
 
-  /* line 980, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 985, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .writeRequest span, .pattern span {
     text-align: center;
     width: 45%; }
 
-  /* line 985, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 990, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .writeRequest__icon.icon-mail-alt {
     width: 15%;
     text-align: center; }
 
-  /* line 990, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 995, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .pattern__icon.icon-align-left {
     width: 15%;
     text-align: center; }
 
-  /* line 995, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 1000, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .banner {
     width: 100%; }
 
-  /* line 999, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 1004, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .info {
     width: 100%; }
-    /* line 1002, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+    /* line 1007, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
     .info:after {
       display: none; }
-    /* line 1006, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+    /* line 1011, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
     .info__block {
       display: block;
       width: 100%; }
-    /* line 1011, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+    /* line 1016, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
     .info h3 {
       padding-top: 15px;
       padding-bottom: 15px;
       min-height: 0; }
-    /* line 1017, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+    /* line 1022, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
     .info h3 {
       text-align: center; }
-    /* line 1021, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+    /* line 1026, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
     .info ul {
       padding-left: 5%; }
-    /* line 1025, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+    /* line 1030, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
     .info ul > li {
       max-width: 50%; }
 
-  /* line 1032, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 1037, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .parameters__type span {
     width: 50%; }
-  /* line 1039, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 1044, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .parameters__color, .parameters__width, .parameters__length, .parameters__sum {
     display: block; }
 
-  /* line 1045, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 1050, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .setTable {
     display: none; }
  }
 
 @media (max-width: 322px) {
-  /* line 1052, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 1057, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .toCenterContent {
     width: 100%;
     margin-left: 0; }
 
-  /* line 1057, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 1062, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .contentNav {
     width: 100%; }
-    /* line 1060, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+    /* line 1065, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
     .contentNav > ul ul {
       font-size: 0;
       padding-left: 20%; }
-    /* line 1065, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+    /* line 1070, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
     .contentNav > ul ul > li {
       max-width: 100%; }
 
-  /* line 1070, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 1075, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .pattern {
     width: 100%; }
 
-  /* line 1074, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 1079, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .goods {
     width: 100%;
     margin-left: 0; }
-    /* line 1078, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+    /* line 1083, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
     .goods__item {
       width: 100%;
       display: none; }
-    /* line 1085, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+    /* line 1090, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
     .goods__item:nth-child(1), .goods__item:nth-child(2), .goods__item:nth-child(3) {
       display: inline-block; }
-    /* line 1091, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+    /* line 1096, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
     .goods__item:nth-child(4), .goods__item:nth-child(5), .goods__item:nth-child(6) {
       display: none; }
 
-  /* line 1099, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 1104, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .goods__intro .goods__intro__paragraph:nth-child(2) {
     display: none; }
 
-  /* line 1105, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 1110, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .payOnline {
     width: 100%;
     margin-left: 0; }
 
-  /* line 1111, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 1116, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .writeRequest {
     width: 100%; }
 
-  /* line 1115, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 1120, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .writeRequest span, .pattern span {
     text-align: center;
     width: 68%; }
 
-  /* line 1120, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 1125, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .writeRequest__icon.icon-mail-alt {
     width: 12%;
     text-align: center; }
 
-  /* line 1125, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 1130, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .pattern__icon.icon-align-left {
     width: 12%;
     text-align: center; }
 
-  /* line 1130, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 1135, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .banner {
     width: 100%; }
 
-  /* line 1134, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 1139, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .info {
     width: 100%; }
-    /* line 1137, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+    /* line 1142, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
     .info ul {
       padding-left: 20%; }
-    /* line 1141, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+    /* line 1146, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
     .info ul > li {
       max-width: 100%; }
 
-  /* line 1148, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 1153, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .parameters__type span {
     width: 100%; }
-  /* line 1152, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 1157, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .parameters__length span {
     width: 25%; }
-  /* line 1156, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 1161, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .parameters__sum {
     text-align: center; }
-    /* line 1159, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+    /* line 1164, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
     .parameters__sum p {
       width: 100%; }
  }
 
 /*\\\SLIDER\\\SLIDER\\\SLIDER\\\SLIDER\\\SLIDER\\\SLIDER\\\SLIDER\\\*/
-/* line 1174, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+/* line 1179, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
 .lentaSlider {
   width: 95%;
   margin: 0 auto; }
-  /* line 1178, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 1183, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .lentaSlider .slide__content {
     padding: 10px; }
-  /* line 1182, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 1187, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .lentaSlider img {
     padding: 5px;
     border: 1px solid #e3e3e4;
@@ -2450,7 +2451,7 @@ body, .wrapCommon {
     height: auto;
     margin: 0 auto; }
 
-/* line 1195, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+/* line 1200, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
 .slick-prev, .slick-next {
   font-size: 0;
   line-height: 0;
@@ -2465,11 +2466,11 @@ body, .wrapCommon {
   outline: none;
   background-color: transparent; }
 
-/* line 1211, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+/* line 1216, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
 .slick-prev:hover:before, .slick-next:hover:before {
   color: #d36b19; }
 
-/* line 1215, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+/* line 1220, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
 .slick-prev:before {
   display: inline;
   content: '\e75d';
@@ -2479,7 +2480,7 @@ body, .wrapCommon {
   font-family: "fontello";
   cursor: pointer; }
 
-/* line 1225, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+/* line 1230, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
 .slick-next:before {
   display: inline;
   content: '\e75e';
@@ -2489,20 +2490,20 @@ body, .wrapCommon {
   font-family: fontello;
   cursor: pointer; }
 
-/* line 1235, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+/* line 1240, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
 .slick-prev {
   left: -20px; }
 
-/* line 1239, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+/* line 1244, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
 .slick-next {
   right: -20px; }
 
 /*\\\SLIDER\\\SLIDER\\\SLIDER\\\SLIDER\\\SLIDER\\\SLIDER\\\SLIDER\\\*/
 /*\\\TABLE\\\TABLE\\\TABLE\\\TABLE\\\TABLE\\\TABLE\\\TABLE\\\TABLE\\\*/
-/* line 1252, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+/* line 1257, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
 .setTable {
   margin-bottom: 35px; }
-  /* line 1256, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 1261, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .setTable h5 {
     font-family: "open_sans_regular", "Tahoma", "Geneva", sans-serif;
     font-size: 14px;
@@ -2514,7 +2515,7 @@ body, .wrapCommon {
     margin-top: 25px;
     margin-bottom: 15px; }
 
-/* line 1269, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+/* line 1274, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
 .setTable__table {
   width: 90%;
   margin-left: auto;
@@ -2529,25 +2530,25 @@ body, .wrapCommon {
   font-family: "open_sans_condensed_bold", "Tahoma", "Geneva", sans-serif;
   font-size: 15px;
   line-height: 18px; }
-  /* line 1285, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 1290, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .setTable__table td {
     border-bottom: 1px solid white;
     padding-top: 15px;
     padding-bottom: 15px;
     position: relative; }
-  /* line 1292, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 1297, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .setTable__table tr td:not(.notHoverColor):hover {
     background-image: url(../img/bg__gray.jpg);
     background-repeat: repeat;
     background-position: 0 0; }
-  /* line 1298, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 1303, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .setTable__table td:first-child {
     background-image: url(../img/bg__LightGray.jpg);
     background-repeat: repeat;
     background-position: 0 0;
     max-width: 90px;
     border: none; }
-  /* line 1307, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 1312, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .setTable__table td:first-child:before {
     display: block;
     position: absolute;
@@ -2559,17 +2560,17 @@ body, .wrapCommon {
     left: 0;
     background: #fff;
     margin: auto; }
-  /* line 1320, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 1325, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .setTable__table td:last-child {
     border-left: 1px solid #ffffff;
     max-width: 145px; }
-  /* line 1325, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 1330, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .setTable__table tr:first-child td {
     border: none;
     background-image: url(../img/bg__LightGray.jpg);
     background-repeat: repeat;
     background-position: 0 0; }
-  /* line 1332, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 1337, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .setTable__table tr:first-child td:before {
     display: block;
     position: absolute;
@@ -2581,30 +2582,30 @@ body, .wrapCommon {
     left: 0;
     background: #fff;
     margin: auto; }
-  /* line 1345, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 1350, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .setTable__table tr:first-child td:first-child:before {
     display: none; }
-  /* line 1349, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 1354, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .setTable__table tr:hover {
     background-image: none;
     background-color: #fff; }
-  /* line 1354, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 1359, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .setTable__table tr:hover td:first-child {
     background-image: none;
     background-color: #fff; }
-  /* line 1359, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 1364, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .setTable__table tr:first-child td:first-child {
     border-top-left-radius: 5px; }
-  /* line 1360, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 1365, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .setTable__table tr:first-child td:last-child {
     border-top-right-radius: 5px; }
-  /* line 1361, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 1366, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .setTable__table tr:last-child td:first-child {
     border-bottom-left-radius: 5px; }
-  /* line 1362, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 1367, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .setTable__table tr:last-child td:last-child {
     border-bottom-right-radius: 5px; }
-  /* line 1364, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+  /* line 1369, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
   .setTable__table button {
     background-image: url(../img/bg__orange.jpg);
     background-repeat: repeat;
@@ -2618,27 +2619,27 @@ body, .wrapCommon {
     cursor: pointer;
     text-transform: uppercase; }
 
-/* line 1379, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+/* line 1384, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
 .notHoverColor {
   color: #fff;
   cursor: none; }
 
-/* line 1384, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+/* line 1389, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
 td:not(.notHoverColor) {
   cursor: pointer; }
 
-/* line 1388, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+/* line 1393, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
 .lighting_col {
   background: #ff5a00;
   background-image: url(../img/bg__orange.jpg) !important;
   background-repeat: repeat;
   background-position: 0 0; }
 
-/* line 1396, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+/* line 1401, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
 tr:first-child td.lighting_col:before, tr:first-child td.lighting_col + td:before {
   display: none; }
 
-/* line 1399, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
+/* line 1404, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
 td.lighting_col {
   border-color: #cd6d22; }
 
