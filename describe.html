@@ -403,16 +403,46 @@
         </section>
         <!-- /.goods -->
 
-        <a class="writeRequest" href="#">
-          <span class="writeRequest__icon  icon-mail-alt"></span>
-          <span>Написать запрос в компанию</span>
-        </a>
+        <div class="writeRequest">
+          <div class="writeRequest__btn form__btn">
+            <span class="writeRequest__icon  icon-mail-alt"></span>
+            <span>Написать запрос в компанию</span>
+          </div>
+          <!-- writeRequest__btn -->
+          <form class="WRform" action="#" method="POST">
+            <input type="text" placeholder="Ваше имя *">
+            <input type="text" placeholder="Ваш e-mail *">
+            <textarea name="WRformTextArea"
+                      rows="8" placeholder="Сообщение" ></textarea>
+            <p class="WRform__20mb">Не более 20 МБ</p>
+            <p>
+              <input type="file" class="WRform__upload">
+            </p>
+            <p class="WRform__code">
+              Введите код
+            </p>
+            <p class="WRform__checkingCode">
+              <img src="img/checkCode.jpg" alt="проверочный код">
+              <input type="text">
+            </p>
+            <button class="PTform__btn" type="submit">Отправить</button>
+          </form>
+          <!-- /.WRform -->
+        </div>
         <!-- /.writeRequest -->
 
-        <a class="pattern" href="#">
-          <span class="pattern__icon  icon-align-left"></span>
-          <span>получить бесплатные образцы</span>
-        </a>
+        <div class="pattern">
+          <div class="pattern__btn form__btn">
+            <span class="pattern__icon  icon-align-left"></span>
+            <span>получить бесплатные образцы</span>
+          </div>
+          <form class="PTform" action="#" method="POST">
+            <input type="text" placeholder="Ваше имя *">
+            <input type="text" placeholder="Ваш e-mail *">
+            <input type="text" placeholder="Ваш телефон *">
+            <button class="PTform__btn" type="submit">Отправить</button>
+          </form>
+        </div>
         <!-- /.pattern -->
 
         <div class="banner">
