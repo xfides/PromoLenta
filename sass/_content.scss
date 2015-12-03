@@ -762,7 +762,6 @@
   padding-bottom: 15px;
   display: none;
 
-
   & input {
     width: 90%;
     text-align: left;
@@ -809,7 +808,7 @@
     line-height: 20px;
   }
 
-  &__btn{
+  &__btn {
     background-image: url("../img/bg__orange.jpg");
     background-position: 0 0;
     background-repeat: repeat;
@@ -830,7 +829,7 @@
     display: block;
   }
 
-  &__btn:hover{
+  &__btn:hover {
     background-color: rgba(53, 53, 53, 0.75);
     background-image: url("../img/bg__gray.jpg");
     background-position: 0 0;
@@ -840,9 +839,9 @@
 
 }
 
-.WRform{
+.WRform {
 
-  & textarea{
+  & textarea {
     width: 90%;
     text-align: left;
     margin-top: 10px;
@@ -888,7 +887,7 @@
   }
 
   &__20mb,
-  &__code{
+  &__code {
     text-align: left;
     font-family: "open_sans_regular", "Tahoma", "Geneva", sans-serif;
     font-size: 14px;
@@ -901,7 +900,7 @@
     margin-bottom: 0;
   }
 
-  & input.WRform__upload{
+  & input.WRform__upload {
     padding: 0;
     border: none;
     color: #797171;
@@ -911,7 +910,7 @@
     margin: 0;
   }
 
-  &__checkingCode{
+  &__checkingCode {
 
     text-align: justify;
     -ms-text-align-last: justify;
@@ -921,8 +920,7 @@
     margin-top: 15px;
     margin-bottom: -10px;
 
-
-    &:after{
+    &:after {
       content: "";
       display: inline-block;
       height: 0;
@@ -937,7 +935,7 @@
       max-width: 45%;
     }
 
-    & input{
+    & input {
       display: inline-block;
       vertical-align: top;
       width: 45%;
@@ -1152,7 +1150,7 @@
 
   }
 
-  .WRform__checkingCode{
+  .WRform__checkingCode {
 
     text-align: left;
     -ms-text-align-last: left;
@@ -1165,7 +1163,7 @@
       max-width: 20%;
     }
 
-    & input{
+    & input {
       width: 20%;
     }
   }
@@ -1655,3 +1653,141 @@
 }
 
 /*\\\TABLE\\\TABLE\\\TABLE\\\TABLE\\\TABLE\\\TABLE\\\TABLE\\\TABLE\\\*/
+
+/*\\\MODAL_FORM_CALLINGBACL\\\MODAL_FORM_CALLINGBACL\\\*/
+
+.callingBack {
+  display: none;
+}
+
+.CBform {
+  border: 1px solid #d36b19;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background-color: #fff;
+  margin: 0 auto;
+
+  & h2{
+    background-color: #d36b19;
+    background-image: url("../img/bg__orange.jpg");
+    background-position: 0 0;
+    background-repeat: repeat;
+    color: #fff;
+    font-family: "open_sans_condensed_bold","Tahoma","Geneva",sans-serif;
+    font-size: 22px;
+    letter-spacing: -0.015em;
+    line-height: 30px;
+    margin-bottom: 25px;
+    margin-top: 0;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  & input {
+    display: block;
+    width: 90%;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #cbcaca;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    font-family: "open_sans_regular", "Tahoma", "Geneva", sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    color: #000;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  ::-webkit-input-placeholder {
+    color: #d57123;
+    font-family: "open_sans_regular", "Tahoma", "Geneva", sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  ::-moz-placeholder {
+    color: #d57123;
+    font-family: "open_sans_regular", "Tahoma", "Geneva", sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  :-moz-placeholder {
+    color: #d57123;
+    font-family: "open_sans_regular", "Tahoma", "Geneva", sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  :-ms-input-placeholder {
+    color: #d57123;
+    font-family: "open_sans_regular", "Tahoma", "Geneva", sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  &__email::-webkit-input-placeholder {
+    color: #a1a1a1;
+    font-family: "open_sans_regular", "Tahoma", "Geneva", sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  &__email::-moz-placeholder {
+    color: #a1a1a1;
+    font-family: "open_sans_regular", "Tahoma", "Geneva", sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  &__email:-moz-placeholder {
+    color: #a1a1a1;
+    font-family: "open_sans_regular", "Tahoma", "Geneva", sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  &__email:-ms-input-placeholder {
+    color: #a1a1a1;
+    font-family: "open_sans_regular", "Tahoma", "Geneva", sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  & button {
+    background-image: url("../img/bg__orange.jpg");
+    background-position: 0 0;
+    background-repeat: repeat;
+    border: medium none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-family: "open_sans_condensed_bold", "Tahoma", "Geneva", sans-serif;
+    font-size: 15px;
+    line-height: 45px;
+    outline: medium none;
+    text-transform: uppercase;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  & button:hover {
+    background-color: rgba(53, 53, 53, 0.75);
+    background-image: url("../img/bg__gray.jpg");
+    background-position: 0 0;
+    background-repeat: repeat;
+    color: #fff;
+  }
+
+}
+
+/*\\\MODAL_FORM_CALLINGBACL\\\MODAL_FORM_CALLINGBACL\\\*/

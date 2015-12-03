@@ -406,5 +406,15 @@ function ready() {
 
   /*\\\подсветка столбцов таблицы\\\подсветка столбцов таблицы\\\*/
 
+  /*\\\MODAL_FORM_CALLINGBACL\\\MODAL_FORM_CALLINGBACL\\\*/
+  $('.toOpenModalForm').colorbox({
+    inline: true,
+    href: "#toOrderCallingBack",
+    maxWidth: "340px",
+    width: "90%",
+    height: "auto",
+    opacity: 0.8
+  });
+  /*\\\MODAL_FORM_CALLINGBACL\\\MODAL_FORM_CALLINGBACL\\\*/
 }
 /*\\\весь скриптовыый код здесь\\\весь скриптовыый код здесь\\\*/

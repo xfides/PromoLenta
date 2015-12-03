@@ -8,6 +8,7 @@
   <title>PromoLenta</title>
 
   <!-- .............................................................. -->
+  <link rel="stylesheet" href="css/colorbox.css">
   <link rel="stylesheet" href="css/index.css">
   <!-- ..............................................................  .. -->
 
@@ -82,7 +83,7 @@
             </p>
             <!-- /.realContacts__item -->
             <p class="realContacts__item RC__callback">
-              <a class="" href="#">Обратный звонок</a>
+              <a class="toOpenModalForm" href="#">Обратный звонок</a>
             </p>
             <!-- /.realContacts__item -->
           </div>
@@ -738,6 +739,21 @@
       <!-- btnUp -->
       <!-- Button to scrollUP -->
 
+      <div class="callingBack toOpenModalForm" >
+        <form class="callingBack__form CBform" action="#" method="POST" id="toOrderCallingBack">
+          <h2 class="CBform__title">
+            обратный звонок
+          </h2>
+          <input type="text" placeholder="Ваше имя *">
+          <input type="text" placeholder="Ваш телефон *">
+          <input  class="CBform__email" type="text" placeholder="Ваш e-mail">
+          <input type="text" placeholder="Удобно время *">
+          <button class="PTform__btn" type="submit">Отправить</button>
+          <!-- /.CBform__title -->
+        </form>
+      </div>
+      <!-- /.callingBack -->
+
     </div>
     <!-- /.wrapCommonInner -->
   </div>
@@ -745,6 +761,8 @@
 
   <!-- .............................................................. -->
   <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
+  <script type="text/javascript" src="js/slick.min.js"></script>
+  <script src="js/jquery.colorbox-min.js"></script>
   <script src="js/index.js" type="text/javascript"></script>
   <!-- .............................................................. -->
 </body>
