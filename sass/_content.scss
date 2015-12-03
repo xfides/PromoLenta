@@ -542,6 +542,10 @@
 }
 
 .writeRequest, .pattern {
+  margin-bottom: 15px;
+}
+
+.writeRequest__btn, .pattern__btn {
   display: block;
   width: 100%;
   font-family: "open_sans_condensed_bold", "Tahoma", "Geneva", sans-serif;
@@ -562,35 +566,35 @@
   border: none;
   padding-top: 20px;
   padding-bottom: 20px;
-  margin-bottom: 25px;
   vertical-align: top;
   letter-spacing: -0.015em;
   text-decoration: none;
 }
 
-.writeRequest:hover {
+.writeRequest__btn:hover {
   background-color: rgba(53, 53, 53, 0.75);
   background-image: url(../img/bg__gray.jpg);
   background-repeat: repeat;
   background-position: 0 0;
   text-decoration: none;
   color: #fff;
+  cursor: pointer;
 }
 
-.pattern:hover {
+.pattern__btn:hover {
   background-color: rgba(53, 53, 53, 0.75);
   background-image: url(../img/bg__gray.jpg);
   background-repeat: repeat;
   background-position: 0 0;
   text-decoration: none;
   color: #fff;
+  cursor: pointer;
 }
 
-.writeRequest span, .pattern span {
+.writeRequest__btn span, .pattern__btn span {
   display: inline-block;
   width: 74%;
   vertical-align: top;
-
 }
 
 .writeRequest__icon.icon-mail-alt {
@@ -742,6 +746,206 @@
   //outline: 1px solid red;
 }
 
+.WRform, .PTform {
+  background: #fff;
+  color: red;
+  border-left: 1px solid #d36b19;
+  border-right: 1px solid #d36b19;
+  border-bottom: 1px solid #d36b19;
+  margin-bottom: 25px;
+  position: relative;
+  top: -3px;
+  -webkit-border-radius: 0 0 5px 5px;
+  -moz-border-radius: 0 0 5px 5px;
+  border-radius: 0 0 5px 5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  //text-align: left;
+
+
+  & input {
+    width: 90%;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #cbcaca;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    font-family: "open_sans_regular", "Tahoma", "Geneva", sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    color: #000;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  ::-webkit-input-placeholder {
+    color: #d57123;
+    font-family: "open_sans_regular", "Tahoma", "Geneva", sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  ::-moz-placeholder {
+    color: #d57123;
+    font-family: "open_sans_regular", "Tahoma", "Geneva", sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  :-moz-placeholder {
+    color: #d57123;
+    font-family: "open_sans_regular", "Tahoma", "Geneva", sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  :-ms-input-placeholder {
+    color: #d57123;
+    font-family: "open_sans_regular", "Tahoma", "Geneva", sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  &__btn{
+    background-image: url("../img/bg__orange.jpg");
+    background-position: 0 0;
+    background-repeat: repeat;
+    border: medium none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-family: "open_sans_condensed_bold", "Tahoma", "Geneva", sans-serif;
+    font-size: 15px;
+    line-height: 45px;
+    outline: medium none;
+    text-transform: uppercase;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 5%;
+    display: block;
+  }
+
+  &__btn:hover{
+    background-color: rgba(53, 53, 53, 0.75);
+    background-image: url("../img/bg__gray.jpg");
+    background-position: 0 0;
+    background-repeat: repeat;
+    color: #fff;
+  }
+
+}
+
+.WRform{
+
+  & textarea{
+    width: 90%;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #cbcaca;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    font-family: "open_sans_regular", "Tahoma", "Geneva", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    resize: none;
+  }
+
+  & textarea::-webkit-input-placeholder {
+    color: #a1a1a1;
+    font-family: "open_sans_regular", "Tahoma", "Geneva", sans-serif;
+    font-size: 18px;
+    line-height: 18px;
+  }
+  & textarea::-moz-placeholder {
+    color: #a1a1a1;
+    font-family: "open_sans_regular", "Tahoma", "Geneva", sans-serif;
+    font-size: 18px;
+    line-height: 18px;
+  }
+  & textarea:-moz-placeholder {
+    color: #a1a1a1;
+    font-family: "open_sans_regular", "Tahoma", "Geneva", sans-serif;
+    font-size: 18px;
+    line-height: 18px;
+  }
+  & textarea:-ms-input-placeholder {
+    color: #a1a1a1;
+    font-family: "open_sans_regular", "Tahoma", "Geneva", sans-serif;
+    font-size: 18px;
+    line-height: 18px;
+  }
+
+  &__20mb,
+  &__code{
+    text-align: left;
+    font-family: "open_sans_regular", "Tahoma", "Geneva", sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    color: #797171;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  & input.WRform__upload{
+    padding: 0;
+    border: none;
+    color: #797171;
+    font-family: "open_sans_regular", "Tahoma", "Geneva", sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0;
+  }
+
+  &__checkingCode{
+
+    text-align: justify;
+    -ms-text-align-last: justify;
+    text-align-last: justify;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 15px;
+    margin-bottom: 0;
+
+    &:after{
+      content: "";
+      display: inline-block;
+      height: 0;
+      overflow: hidden;
+      visibility: hidden;
+      width: 100%;
+    }
+
+    & img {
+      display: inline-block;
+      vertical-align: top;
+      max-width: 45%;
+    }
+
+    & input{
+      display: inline-block;
+      vertical-align: top;
+      width: 45%;
+      margin: 0;
+    }
+  }
+
+}
+
 @media (max-width: 962px) {
 
   .toCenterContent {
@@ -770,7 +974,7 @@
     width: 100%;
   }
 
-  .pattern {
+  .pattern__btn {
     width: 100%;
   }
 
@@ -788,7 +992,7 @@
     margin-left: 30%;
   }
 
-  .writeRequest {
+  .writeRequest__btn {
     width: 100%;
   }
 
@@ -845,7 +1049,7 @@
     }
   }
 
-  .pattern {
+  .pattern__btn {
     width: 100%;
     text-align: center;
   }
@@ -876,12 +1080,12 @@
     margin-left: 0;
   }
 
-  .writeRequest {
+  .writeRequest__btn {
     width: 100%;
     text-align: center;
   }
 
-  .writeRequest span, .pattern span {
+  .writeRequest__btn span, .pattern__btn span {
     text-align: center;
     width: 30%;
   }
@@ -944,9 +1148,27 @@
     &__type span {
       width: 50%;
     }
-    
+
   }
 
+  .WRform__checkingCode{
+
+    text-align: left;
+    -ms-text-align-last: left;
+    text-align-last: left;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 15px;
+    margin-bottom: 0;
+
+    & img {
+      max-width: 20%;
+    }
+
+    & input{
+      width: 20%;
+    }
+  }
 }
 
 @media (max-width: 482px) {
@@ -969,7 +1191,7 @@
     }
   }
 
-  .pattern {
+  .pattern__btn {
     width: 100%;
   }
 
@@ -998,11 +1220,11 @@
     margin-left: 0;
   }
 
-  .writeRequest {
+  .writeRequest__btn {
     width: 100%;
   }
 
-  .writeRequest span, .pattern span {
+  .writeRequest__btn span, .pattern__btn span {
     text-align: center;
     width: 45%;
   }
@@ -1092,7 +1314,7 @@
     }
   }
 
-  .pattern {
+  .pattern__btn {
     width: 100%;
   }
 
@@ -1133,11 +1355,11 @@
 
   }
 
-  .writeRequest {
+  .writeRequest__btn {
     width: 100%;
   }
 
-  .writeRequest span, .pattern span {
+  .writeRequest__btn span, .pattern__btn span {
     text-align: center;
     width: 68%;
   }

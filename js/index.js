@@ -275,7 +275,7 @@ function ready() {
   (function ($) {
     var allPanels = $('.accordion__describe').hide();
     var contentNavTitles = $(".contentNav__title");
-    openFirstPanel();
+    //openFirstPanel();
 
     $('.contentNav__title').click(function () {
       $this = $(this);
@@ -341,16 +341,16 @@ function ready() {
   });
   /*\\\Сворачивание и разворачивание верхнего меню в моб версии\\\*/
 
-  /*\\\сворачивание инфомрационных блоков в контекте\\\*/
-  /*
-    var infoBlocks = $(".info__title");
+  /*\\\сворачивание боковых форм\\\*/
+
+    var infoBlocks = $(".form__btn");
 
     infoBlocks.click(function () {
       $(this).next().slideToggle();
     });
-  */
 
-  /*\\\сворачивание инфомрационных блоков в контекте\\\*/
+
+  /*\\\сворачивание боковых форм\\\*/
 
 
   /*\\\слайдер\\\слайдер\\\слайдер\\\слайдер\\\слайдер\\\*/
