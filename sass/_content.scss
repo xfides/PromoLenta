@@ -779,6 +779,7 @@
     padding-right: 15px;
     padding-top: 12px;
     padding-bottom: 12px;
+    outline: none;
   }
 
   ::-webkit-input-placeholder {
@@ -835,6 +836,14 @@
     color: #fff;
   }
 
+}
+
+form textarea:focus,
+form textarea:active,
+form input:focus,
+form input:active{
+  outline: none;
+  border: 1px solid #d36b19;
 }
 
 .WRform {
