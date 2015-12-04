@@ -869,6 +869,28 @@ form .toFillFields{
     color: #d57123;
   }
 }
+form textarea {
+  font-size: 15px;
+  line-height: 18px;
+
+  & textarea::-webkit-input-placeholder {
+    font-size: 15px;
+    line-height: 18px;
+  }
+  & textarea::-moz-placeholder {
+    font-size: 15px;
+    line-height: 18px;
+  }
+  & textarea:-moz-placeholder {
+    font-size: 15px;
+    line-height: 18px;
+  }
+  & textarea:-ms-input-placeholder {
+    font-size: 15px;
+    line-height: 18px;
+  }
+
+}
 
 .WRform {
 
@@ -882,8 +904,8 @@ form .toFillFields{
     -moz-border-radius: 5px;
     border-radius: 5px;
     font-family: "open_sans_regular", "Tahoma", "Geneva", sans-serif;
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 15px;
+    line-height: 18px;
     color: #000;
     padding-left: 15px;
     padding-right: 15px;
@@ -895,25 +917,25 @@ form .toFillFields{
   & textarea::-webkit-input-placeholder {
     color: #a1a1a1;
     font-family: "open_sans_regular", "Tahoma", "Geneva", sans-serif;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 18px;
   }
   & textarea::-moz-placeholder {
     color: #a1a1a1;
     font-family: "open_sans_regular", "Tahoma", "Geneva", sans-serif;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 18px;
   }
   & textarea:-moz-placeholder {
     color: #a1a1a1;
     font-family: "open_sans_regular", "Tahoma", "Geneva", sans-serif;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 18px;
   }
   & textarea:-ms-input-placeholder {
     color: #a1a1a1;
     font-family: "open_sans_regular", "Tahoma", "Geneva", sans-serif;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 18px;
   }
 
@@ -1953,8 +1975,8 @@ form .toFillFields{
     border-radius: 5px;
     color: #000;
     font-family: "open_sans_regular","Tahoma","Geneva",sans-serif;
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 15px;
+    line-height: 18px;
     margin-bottom: 10px;
     margin-top: 10px;
     padding: 14px 15px;
