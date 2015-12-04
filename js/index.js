@@ -343,11 +343,20 @@ function ready() {
 
   /*\\\сворачивание боковых форм\\\*/
 
-    var infoBlocks = $(".form__btn");
+  var infoBlocks = $(".form__btn");
+  var infoBlocksDescribe = $(".form__btn+form");
 
-    infoBlocks.click(function () {
-      $(this).next().slideToggle();
-    });
+  infoBlocks.click(function () {
+    var $this = $(this);
+    var $target = $(this).next();
+
+    if ($target.hasClass('active')) {
+      $target.removeClass('active').slideUp();
+    } else {
+      infoBlocksDescribe.removeClass('active').slideUp();
+      $target.addClass('active').slideDown();
+    }
+  });
 
 
   /*\\\сворачивание боковых форм\\\*/
@@ -416,14 +425,29 @@ function ready() {
     opacity: 0.8
   });
 
-  $('.toOrderModalForm').colorbox({
-    inline: true,
-    href: "#toOrderGoods",
-    maxWidth: "440px",
-    width: "90%",
-    height: "auto",
-    opacity: 0.8
+ /*\\\MODAL_FORM_CALLINGBACL\\\MODAL_FORM_CALLINGBACL\\\*/
+
+
+  /*\\\MODAL_FORM_toOrderModalForm\\\MODAL_FORM_toOrderModalForm\\\*/
+
+  $(".setTable__table").delegate("td:not(.left_col,.top_row,.right_col)", "click", function(){
+    $(this).addClass("toOrderModalForm");
+
+    $('.toOrderModalForm').colorbox({
+      inline: true,
+      href: "#toOrderGoods",
+      maxWidth: "440px",
+      width: "90%",
+      height: "auto",
+      opacity: 0.8
+    });
+
   });
-  /*\\\MODAL_FORM_CALLINGBACL\\\MODAL_FORM_CALLINGBACL\\\*/
+
+  /*\\\MODAL_FORM_toOrderModalForm\\\MODAL_FORM_toOrderModalForm\\\*/
+
+
+
+
 }
 /*\\\весь скриптовыый код здесь\\\весь скриптовыый код здесь\\\*/
