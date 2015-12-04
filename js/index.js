@@ -425,12 +425,12 @@ function ready() {
     opacity: 0.8
   });
 
- /*\\\MODAL_FORM_CALLINGBACL\\\MODAL_FORM_CALLINGBACL\\\*/
+  /*\\\MODAL_FORM_CALLINGBACL\\\MODAL_FORM_CALLINGBACL\\\*/
 
 
   /*\\\MODAL_FORM_toOrderModalForm\\\MODAL_FORM_toOrderModalForm\\\*/
 
-  $(".setTable__table").delegate("td:not(.left_col,.top_row,.right_col)", "click", function(){
+  $(".setTable__table").delegate("td:not(.left_col,.top_row,.right_col)", "click", function () {
     $(this).addClass("toOrderModalForm");
 
     $('.toOrderModalForm').colorbox({
@@ -447,7 +447,30 @@ function ready() {
   /*\\\MODAL_FORM_toOrderModalForm\\\MODAL_FORM_toOrderModalForm\\\*/
 
 
+  /*\\\MODAL_FORM_toOrderEditionModalForm\\\MODAL_FORM_toOrderEditionModalForm\\\*/
+  $(".setTable__table").delegate("button", "click", function () {
+    $(this).addClass("toOrderEditionModalForm");
 
+    $('.toOrderEditionModalForm').colorbox({
+      inline: true,
+      href: "#toOrderEditGoods",
+      maxWidth: "440px",
+      width: "90%",
+      height: "auto",
+      opacity: 0.8
+    });
 
+  });
+
+  $('button.toOrder').colorbox({
+    inline: true,
+    href: "#toOrderEditGoods",
+    maxWidth: "340px",
+    width: "90%",
+    height: "auto",
+    opacity: 0.8
+  });
+
+  /*\\\MODAL_FORM_toOrderEditionModalForm\\\MODAL_FORM_toOrderEditionModalForm\\\*/
 }
 /*\\\весь скриптовыый код здесь\\\весь скриптовыый код здесь\\\*/

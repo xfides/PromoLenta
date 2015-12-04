@@ -855,6 +855,20 @@ form input[type=file]{
   line-height: 18px;
 
 }
+form .toFillFields{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "open_sans_regular", "Tahoma", "Geneva", sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  color: #a1a1a1;
+  text-align: left;
+
+  & span{
+    color: #d57123;
+  }
+}
 
 .WRform {
 
@@ -1816,7 +1830,7 @@ form input[type=file]{
   display: none;
 }
 
-.ODform{
+.ODform, .OEform{
   border: 1px solid #d36b19;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -1841,6 +1855,7 @@ form input[type=file]{
     padding-top: 20px;
     padding-bottom: 20px;
   }
+
 
   &__parameters{
     width: 90%;
@@ -2020,5 +2035,67 @@ form input[type=file]{
     color: #fff;
   }
 }
+
+.toOrderEdition{
+  display: none;
+}
+
+.OEform{
+
+  &__cutting::-webkit-input-placeholder {
+    color: #a1a1a1;
+    font-family: "open_sans_regular", "Tahoma", "Geneva", sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  &__cutting::-moz-placeholder {
+    color: #a1a1a1;
+    font-family: "open_sans_regular", "Tahoma", "Geneva", sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  &__cutting:-moz-placeholder {
+    color: #a1a1a1;
+    font-family: "open_sans_regular", "Tahoma", "Geneva", sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  &__cutting:-ms-input-placeholder {
+    color: #a1a1a1;
+    font-family: "open_sans_regular", "Tahoma", "Geneva", sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  &__editInputs{
+    font-size: 1px;
+    text-align: justify;
+    line-height: 0;
+    -ms-text-align-last: justify;
+    text-align-last: justify;
+
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
+    &:after{
+      width: 100%;
+      height: 0px;
+      visibility: hidden;
+      overflow: hidden;
+      content: '';
+      display: inline-block;
+    }
+
+    & input{
+      display: inline-block;
+      vertical-align: top;
+      width: 48%;
+    }
+  }
+}
+
+
+
 
 /*\\\MODAL_FORM_CALLINGBACL\\\MODAL_FORM_CALLINGBACL\\\*/

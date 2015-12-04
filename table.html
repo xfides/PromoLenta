@@ -568,6 +568,10 @@
               <img src="img/checkCode.jpg" alt="проверочный код">
               <input type="text">
             </p>
+
+            <p class="toFillFields">
+              Поля помеченные <span>*</span> обязательны к  заполнению
+            </p>
             <button class="PTform__btn" type="submit">Отправить</button>
           </form>
           <!-- /.WRform -->
@@ -583,6 +587,9 @@
             <input type="text" placeholder="Ваше имя *">
             <input type="text" placeholder="Ваш e-mail *">
             <input type="text" placeholder="Ваш телефон *">
+            <p class="toFillFields">
+              Поля помеченные <span>*</span> обязательны к  заполнению
+            </p>
             <button class="PTform__btn" type="submit">Отправить</button>
           </form>
         </div>
@@ -930,6 +937,9 @@
           <input type="text" placeholder="Ваш телефон *">
           <input  class="CBform__email" type="text" placeholder="Ваш e-mail">
           <input type="text" placeholder="Удобное время *">
+          <p class="toFillFields">
+            Поля помеченные <span>*</span> обязательны к  заполнению
+          </p>
           <button class="PTform__btn" type="submit">Отправить</button>
           <!-- /.CBform__title -->
         </form>
@@ -957,8 +967,43 @@
           <p class="ODform__cost">
             Стоимость тиража: &nbsp;<strong>7548 руб.</strong>
           </p>
+          <p class="toFillFields">
+            Поля помеченные <span>*</span> обязательны к  заполнению
+          </p>
           <button class="PTform__btn" type="submit">Отправить заказ</button>
           <!-- /.ODform__title -->
+        </form>
+      </div>
+      <!-- /.toOrder -->
+
+      <div class="toOrderEdition toOrderEditionModalForm" >
+        <form class="callingBack__form OEform" action="#" method="POST"
+              id="toOrderEditGoods">
+          <h2 class="OEform__title">
+            Получить расчет
+          </h2>
+          <p class="OEform__parameters">
+            Лента; Способ изготовления: горячее тиснение
+            Цветность: 4; Метраж: 300; Ширина: 10 мм
+          </p>
+          <p class="OEform__editInputs">
+            <input type="text" placeholder="Тираж *">
+            <input  class = "OEform__cutting" type="text" placeholder="Резка">
+          </p>
+          <input type="text" placeholder="Фамилия *">
+          <input type="text" placeholder="Имя *">
+          <input class="OEform__email" type="text" placeholder="Отчество">
+          <input   type="text" placeholder="Ваш e-mail *">
+          <input  type="text" placeholder="Ваш телефон *">
+          <input type="file" class="WRform__upload">
+          <textarea name="WRformTextArea"
+                    rows="6" placeholder="Комментарии"></textarea>
+          <p class="toFillFields">
+            Поля помеченные <span>*</span> обязательны к  заполнению
+          </p>
+          <!-- /.toFillFields -->
+          <button class="PTform__btn" type="submit">Отправить запрос</button>
+          <!-- /.OEform__title -->
         </form>
       </div>
       <!-- /.toOrder -->
