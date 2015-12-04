@@ -415,6 +415,15 @@ function ready() {
     height: "auto",
     opacity: 0.8
   });
+
+  $('.toOrderModalForm').colorbox({
+    inline: true,
+    href: "#toOrderGoods",
+    maxWidth: "440px",
+    width: "90%",
+    height: "auto",
+    opacity: 0.8
+  });
   /*\\\MODAL_FORM_CALLINGBACL\\\MODAL_FORM_CALLINGBACL\\\*/
 }
 /*\\\весь скриптовыый код здесь\\\весь скриптовыый код здесь\\\*/
