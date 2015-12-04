@@ -2457,10 +2457,10 @@ body, .wrapCommon {
     margin-top: 15px; }
     /* line 1165, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
     .WRform__checkingCode img {
-      max-width: 20%; }
+      max-width: 45%; }
     /* line 1169, D:/learn_HTML/projects/Kseniya/promolenta/sass/content */
     .WRform__checkingCode input {
-      width: 20%; }
+      max-width: 45%; }
  }
 
 @media (max-width: 482px) {
