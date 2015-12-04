@@ -687,7 +687,6 @@
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
-    //cursor: pointer;
     text-align: left;
     font-family: "open_sans_condensed_bold", "Tahoma", "Geneva", sans-serif;
     font-size: 14px;
@@ -722,7 +721,6 @@
     font-size: 10px;
     color: #d36b19;
     line-height: 30px;
-    //padding-left: 10px;
     padding-right: 15px;
     text-decoration: none;
   }
@@ -1129,6 +1127,9 @@
       display: inline-block;
       vertical-align: top;
       width: 30%;
+      text-align: left;
+      -ms-text-align-last: left;
+      text-align-last: left;
 
       &:last-child {
         margin-bottom: 23px;
@@ -1136,9 +1137,11 @@
     }
 
     & h3 {
+      display: block;
       padding-top: 5px;
       padding-bottom: 5px;
       min-height: 60px;
+      text-align: left !important;
     }
   }
 

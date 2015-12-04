@@ -459,6 +459,9 @@
 
     &__item {
       display: block;
+      text-align: left;
+      -ms-text-align-last: left;
+      text-align-last: left;
     }
   }
 
@@ -673,6 +676,8 @@
     &__item {
       width: 100%;
       text-align: center;
+      -ms-text-align-last: center;
+      text-align-last: center;
     }
   }
 
